@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:layout_gravity="center"
+    android:background="@color/primary_dark">
+
+
+    <TextView
+        android:id="@+id/txt_note"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Click to Add Notes"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#fff"/>
+
+</android.support.constraint.ConstraintLayout>

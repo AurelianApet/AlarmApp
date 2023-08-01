@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_cal">
+
+    <com.alarm.technothumb.alarmapplication.alarmm.timer.TimerView
+        android:id="@+id/timer_time_text"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/medium_font_padding"
+        android:paddingBottom="@dimen/medium_font_padding"
+        android:gravity="center_horizontal">
+
+        <include layout="@layout/timer_h_mm_ss_view"/>
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/timer_setup_delete_start_margin"
+            android:padding="@dimen/timer_setup_delete_padding"
+            android:src="@drawable/ic_backspace"
+            android:background="@drawable/item_background"
+            android:contentDescription="@string/timer_delete"/>
+
+    </com.alarm.technothumb.alarmapplication.alarmm.timer.TimerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="8dip"
+        android:background="@color/dialog_gray" />
+    <include layout="@layout/three_keys_view"
+        android:id="@+id/first" />
+
+    <include layout="@layout/three_keys_view"
+        android:id="@+id/second"/>
+
+    <include layout="@layout/three_keys_view"
+        android:id="@+id/third"/>
+
+    <include layout="@layout/three_keys_view"
+        android:id="@+id/fourth" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#28ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="0dip">
+
+        <Button
+            android:id="@+id/timer_cancel"
+            android:text="@string/timer_cancel"
+            android:layout_width="0dp"
+            style="@style/bold_button"
+            android:textSize="@dimen/timer_setup_button_size"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:layout_height="match_parent"
+            android:textColor="#fff"/>
+
+        <View
+            android:id="@+id/timer_button_sep"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_width="1dip"
+            android:background="#28ffffff"/>
+
+        <Button
+            android:id="@+id/timer_start"
+            android:text="@string/timer_start"
+            android:layout_width="0dp"
+            style="@style/bold_button"
+            android:textSize="@dimen/timer_setup_button_size"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:layout_height="match_parent"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

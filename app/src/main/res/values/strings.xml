@@ -1,0 +1,1955 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Ownotes</string>
+
+    <string name="empty_view_text">Press the Floating Action Button to add an alarm!</string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="add_label_hint">Enter Title</string>
+    <string name="update_complete">Changes Saved</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="delete_complete">Alarm Deleted</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_dialog_title">Confirm Delete Alarm</string>
+    <string name="delete_dialog_content">Are you sure you would like to delete this alarm?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    //Tab Title
+    <string name="alarm">Alarm</string>
+    <string name="stop_watcher">Stop Watch</string>
+    <string name="world_clock">World Clock</string>
+    <string name="timer">Timer</string>
+    <string name="calender">Calender</string>
+    <string name="medicine">Medicine</string>
+    <string name="notes">Notes</string>
+
+    <string name="display_stopwatch">00:00:0</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_lap">Lap</string>
+
+    //world Timer
+
+    <string name="menu_add">Add Zone</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Remove</string>
+    <string name="menu_about">About</string>
+
+    <!-- Timezone Edit Activity -->
+    <string name="title_timezone_add">Add Time Zone</string>
+    <string name="title_timezone_edit">Edit Time Zone</string>
+    <string name="timezone_pick_zone">Pick a time zone</string>
+    <string name="timezone_pick_name">Custom name</string>
+    <string name="timezone_save">Save</string>
+    <string name="timezone_cancel">Cancel</string>
+    <string name="timezone_search_filter">Type to narrow search...</string>
+    <string name="error_must_pick_zone_name">Please select a timezone and custom name</string>
+
+    <!-- About dialog -->
+    <string name="about_title">AndroidOpenSourceApps.org</string>
+    <string name="about_message">This app is free software. Please consider a donation, visit <a href="http://www.androidopensourceapps.org">AndroidOpenSourceApps.org</a> to find more details.</string>
+
+
+    //Timer
+
+    <string name="timerVal">00:00:00</string>
+    <string name="pauseButtonLabel">Pause</string>
+    <string name="startButtonLabel">Start</string>
+
+
+    //calender
+
+    <string name="no_event">No event</string>
+    <string name="calendar_permission_required">Calendar access is required to manage your events</string>
+    <string name="all_day">All day</string>
+    <string name="grant_access">Grant access</string>
+    <string name="today">Today</string>
+    <string name="title">Title</string>
+    <string name="event_time">Event time</string>
+    <string name="event_calendar">Event calendar</string>
+    <string name="warning_empty_title">Event title is required</string>
+    <string name="choose_calendar">Choose a calendar</string>
+    <string name="create_event">Create new event</string>
+    <string name="edit_event">Edit event</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Delete this event?</string>
+    <string name="confirm_discard_changes">Discard changes?</string>
+    <string name="warning_missing_calendar">Please choose a calendar</string>
+    <string name="end_time">Ends\n%s</string>
+    <string name="default_calendar_name">Local Calendar</string>
+    <string name="event_created">Event created.</string>
+    <string name="event_updated">Event updated.</string>
+    <string name="event_deleted">Event deleted.</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="night">Night</string>
+    <string name="fahrenheit">%1$.1f\u00b0F</string>
+    <string name="show_weather">Show weather</string>
+    <string name="updating_weather" tools:ignore="TypographyEllipsis">Updating weather information...</string>
+    <string name="location_permission_required">Updating weather requires location access</string>
+    <string name="week_start">Week start</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="calendars">Calendars</string>
+    <string name="error_location">Unable to determine your location</string>
+
+
+    //Medicine
+
+    <string name="title_medicine_name">Medicine Name</string>
+    <string name="hint_enter_med_name">Enter Medicine</string>
+    <string name="medicine_days">Medicine Days</string>
+    <string name="title_treatment_deadline">Treatment deadline</string>
+    <string name="title_continuous_use">Continuous use</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="new_medicine">NEW MEDICINE</string>
+    <string name="every_day">Every day</string>
+    <string name="no_medicine_added">No Medicine Added</string>
+    <string name="loading_tasks_error">Error while loading medicineAlarms</string>
+    <string name="successfully_saved_me_message">Medicine Added Scuccessfully</string>
+    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="ignored">IGNORED</string>
+    <string name="taken">TAKEN</string>
+    <string name="all">ALL</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">All Medicines</string>
+    <string name="ignore_label">Medicines Ignored</string>
+    <string name="taken_label">Medicine Taken</string>
+    <string name="no_history">No History Found</string>
+    <string name="no_taken_med_history">You have not taken any medicine</string>
+    <string name="no_ignored_history">Well Done</string>
+    <string name="menu_stats">Monthly Report</string>
+
+
+    //medicinee
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_today">Today</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_tomorrow">Tomorrow</string>
+    <string name="title_activity_add">Add Alarm!</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_alert">Alert Activity Screen</string>
+    <string name="str_btn_set_alarm">Set Alarm</string>
+    <string name="str_btn_cancel">Cancel</string>
+    <string name="str_tv_message">Opened by Alarm</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="pill_name">Please insert pill name</string>
+
+    <string name="Monday">Mo</string>
+    <string name="Tuesday">Tu</string>
+    <string name="Wednesday">We</string>
+    <string name="Thursday">Th</string>
+    <string name="Friday">Fr</string>
+    <string name="Saturday">Sa</string>
+    <string name="Sunday">Su</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="action_edit">edit</string>
+
+    //Notes
+
+    <string name="title_edit_notes_activity">Note</string>
+    <!-- -->
+    <string name="no_notes_text">Press \'+\' to add new note</string>
+    <string name="note_title">Title</string>
+    <string name="note_body">Note</string>
+    <!-- -->
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <!-- -->
+    <string-array name="colourNames">
+        <item>Blue</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>White</item>
+    </string-array>
+    <!-- -->
+    <string-array name="fontSizeNames">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <!-- -->
+    <string name="action_search">Search</string>
+    <string name="action_rate_app">Rate app</string>
+    <string name="action_backup">Backup notes</string>
+    <string name="action_restore">Restore notes</string>
+    <string name="action_note_colour">Note colour</string>
+    <!--<string name="action_delete">Delete</string>-->
+    <string name="action_delete_selected_number">Selected</string>
+    <string name="action_font_size">Note font size</string>
+    <string name="action_hide_body">Hide note body in list</string>
+    <string name="action_show_body">Show note body in list</string>
+    <!-- -->
+    <string name="dialog_delete">Selected notes will be deleted!</string>
+    <string name="dialog_note_colour">Change note colour</string>
+    <string name="dialog_save_changes">Save changes?</string>
+    <string name="dialog_font_size">Change note font size</string>
+    <string name="dialog_rate_title">Rate app</string>
+    <string name="dialog_rate_message">Open app in Play Store?
+        (Thank you for rating! We really appreciate it!)</string>
+    <string name="dialog_check_backup_if_sure">Are you sure you want to backup current notes?</string>
+    <string name="dialog_backup_created_title">Backup successful</string>
+    <string name="dialog_backup_created">Backup created in</string>
+    <string name="dialog_check_restore_if_sure">Are you sure you want to restore backup notes?
+        (Cannot be undone)</string>
+    <string name="dialog_restore_failed_title">No backup found</string>
+    <string name="dialog_restore_failed">To restore notes, the backup file
+        has to be in \'External/Swiftnotes/swiftnotes_backup.json\'</string>
+    <!-- -->
+    <string name="new_note_content_description">New note</string>
+    <string name="favourite_content_description">Favourite</string>
+    <!-- -->
+    <string name="toast_deleted">Delete successful</string>
+    <string name="toast_new_note">Note created</string>
+    <string name="toast_note_saved">Note saved</string>
+    <string name="toast_empty_note_discarded">Empty note discarded</string>
+    <string name="toast_edittext_cannot_be_empty">Title cannot be empty</string>
+    <string name="toast_note_body_hidden">Note body will now be hidden in notes list</string>
+    <string name="toast_note_body_showing">Note body will now be shown in notes list</string>
+    <string name="toast_backup_failed">Backup unsuccessful</string>
+    <string name="toast_backup_no_notes">No notes to backup</string>
+    <string name="toast_restore_successful">Notes restored</string>
+    <string name="toast_restore_unsuccessful">Restore unsuccessful</string>
+    <string name="title_activity_notes">NotesActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--notes-->
+
+    <string name="default_category">Default</string>
+
+
+    <string name="title_manage_categories">Categories</string>
+    <string name="title_textnote">Text Note</string>
+    <string name="title_checklistnote">Checklist Note</string>
+    <string name="title_audionote">Audio Note</string>
+    <string name="title_sketchnote">Sketch Note</string>
+    <string name="title_recycle_bin">Recycle Bin</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_help">Help</string>
+    <string name="title_about">About</string>
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--<string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+    <string name="nav_all">All notes</string>
+    <string name="nav_trash">Recycle bin</string>
+    <string name="nav_manage_categories">Manage categories</string>
+
+    <string name="action_sort_alphabetical">Sort alphabetical</string>
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_reminder">Set reminder</string>
+    <string name="action_reminder_edit">Edit reminder</string>
+    <string name="action_reminder_delete">Delete reminder</string>
+
+    <string name="action_cancel">Cancel</string>
+    <!--<string name="action_delete">Delete</string>-->
+    <string name="action_delete_all">Delete all</string>
+    <!--<string name="action_save">Save</string>-->
+    <string name="action_update">Update</string>
+    <string name="action_add">Add</string>
+    <string name="action_share">Share</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_note">Multiline-\nNote</string>
+    <string name="hint_new_item">New item</string>
+
+    <string name="toast_canceled">Canceled without saving</string>
+    <string name="toast_saved">Note saved</string>
+    <string name="toast_updated">Note updated</string>
+    <string name="toast_category_exists">Category already exists</string>
+    <string name="toast_alarm_scheduled">Alarm scheduled for %1s</string>
+    <string name="toast_need_permission_audio">Permission to use the microphone is needed for this feature</string>
+    <string name="toast_need_permission_write_external">Permission to write to external storage is needed for this feature</string>
+    <string name="toast_external_storage_not_mounted">Error: Cannot write to external storage</string>
+    <string name="toast_file_exported_to">Exported note to %1s</string>
+
+    <string name="dialog_delete_title">Delete %1s?</string>
+    <string name="dialog_delete_message">Are you sure you want to delete %1s?</string>
+    <string name="dialog_trash_title">Moving to recycle bin</string>
+    <string name="dialog_trash_message">Notes will be moved to the recycle bin. You can recover or permanently delete them there. Notifications cannot be restored.</string>
+    <string name="dialog_save_title">Deleting selected items.</string>
+    <string name="dialog_save_message">Checked items will be deleted on updating or saving the note.</string>
+    <string name="dialog_restore_title">Restore or delete %1s?</string>
+    <string name="dialog_restore_message">Do you want to restore or delete %1s?</string>
+    <string name="dialog_need_category_title">No Categories</string>
+    <string name="dialog_need_category_message">You need to create at least one category.\nDo you want to do that now?</string>
+    <string name="dialog_welcome">Welcome</string>
+    <string name="dialog_help">View Help</string>
+    <string name="dialog_welcome_text">With note you can create and share notes in the form of text, checklists, memos and sketches.</string>
+    <string name="dialog_ok" translatable="false">OKAY</string>
+
+    <string name="dialog_option_delete">Delete</string>
+    <string name="dialog_option_restore">Restore</string>
+
+    <string name="fab_text">New text</string>
+    <string name="fab_audio">New audio</string>
+    <string name="fab_checklist">New checklist</string>
+    <string name="fab_sketch">New sketch</string>
+
+    <string name="note_standardname">Note %1s</string>
+
+    <string name="tv_category">Category:</string>
+
+    <string name="settings_general_heading">General</string>
+    <string name="settings_del_notes_title">Delete notes in category</string>
+    <string name="settings_del_notes_sum">Also delete notes that are in the category that is deleted.</string>
+    <string name="settings_use_custom_font_size_title">Custom font size</string>
+    <string name="settings_use_custom_font_size_sum">Use a custom font size in the text note editor.</string>
+    <string name="settings_font_size_title">Font size</string>
+    <string name="settings_font_size_sum">Click here to select the font size.</string>
+
+    <string name="help_overview_heading">Overview</string>
+    <string name="help_intro">Welcome to the help page. This app lets you take and manage notes without compromising your privacy.</string>
+    <string name="help_privacy_heading">Privacy Info</string>
+    <string name="help_perm_receive_boot_title">RECEIVE BOOT COMPLETED</string>
+    <string name="help_perm_receive_boot_sum">is needed to reschedule the notifications after a reboot.</string>
+    <string name="help_perm_record_audio_title">RECORD AUDIO</string>
+    <string name="help_perm_record_audio_sum">is needed to record audio notes; if this is not granted, audio notes are unavailable.</string>
+    <string name="help_perm_write_external_title">WRITE EXTERNAL STORAGE</string>
+    <string name="help_perm_write_external_sum">is needed to save notes to the internal memory; if this is not granted, notes cannot be saved externally.</string>
+
+    <string name="about_version_number">Version 1.0.1</string>
+    <string name="about_author">Authors: </string>
+    <string name="about_author_names" translatable="false">Robin Morawetz</string>
+    <string name="about_author_contributors">and contributors.</string>
+    <string name="about_affiliation">In affiliation with</string>
+    <string name="about_privacy_friendly">This application belongs to the group of Privacy Friendly Apps developed by Technische Universität Darmstadt. Sourcecode licensed under GPLv3. Images copyright TU Darmstadt and Google Inc.</string>
+    <string name="about_more_info">More information can be found on:</string>
+    <string name="about_url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
+    <string name="about_github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-notes">Github-Repo</a></string>
+
+    <!--Calender-->
+
+    <!-- This is the label underneath the icon for Calendar -->
+    <string name="app_label">Calendar</string>
+
+    <!-- Shared Labels. These labels are shared among the activities. -->
+    <skip />
+    <!-- This is the label for the title or name of an event -->
+    <string name="what_label">What</string>
+    <!-- This is the label for the location of an event -->
+    <string name="where_label">Where</string>
+    <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
+    <string name="when_label">When</string>
+    <!-- This is the label for the timezone of an event [CHAR LIMIT=30] -->
+    <string name="timezone_label">Time zone</string>
+    <!-- This is the label for the Guests/Attendees of an event -->
+    <string name="attendees_label">Guests</string>
+    <!-- Text to show when an event starts on the current day -->
+    <!--<string name="today">Today</string>-->
+    <!-- Text to show when an event starts on the next day -->
+    <string name="tomorrow">Tomorrow</string>
+    <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="today_at_time_fmt">"Today at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="tomorrow_at_time_fmt">"Tomorrow at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+
+    <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
+         for all the choices about how often an event repeats (including the choice
+         of not repeating). -->
+    <string name="repeats_label">Repetition</string>
+    <!-- Title of event when no explicit title is specified by the user -->
+    <string name="no_title_label">(No title)</string>
+
+    <!-- Reminder format strings -->
+    <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 minute</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes</item>
+    </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
+    <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 min</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
+    </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
+    <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
+        <item quantity="one">1 hour</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours</item>
+    </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
+    <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <item quantity="one">1 day</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+    <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
+    <plurals name="weekN">
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
+        <item quantity="other">WEEK <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+
+    <!-- Menu items: -->
+    <skip />
+    <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
+    <string name="calendar_refresh"> "Refresh"</string>
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
+    <string name="show_day_view">"Show day"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
+    <string name="agenda_view">"Agenda"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
+    <string name="day_view">"Day"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
+    <string name="week_view">"Week"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
+    <string name="month_view">"Month"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
+    <string name="event_view">"View event"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
+    <string name="event_create">"New event"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
+    <string name="event_edit">"Edit event"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
+    <string name="event_delete">"Delete event"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
+    <string name="goto_today">"Today"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+     item opens new dialog shown the date that the user wants to go. -->
+    <string name="goto_date">"Go to…"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to see the list of calendars that he is viewing and to then add
+         or remove selected calendars. -->
+
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
+    <string name="menu_preferences">"Settings"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <string name="menu_select_visible_calendars">"Calendars to display"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <string name="search">"Search"</string>
+    <!-- This is a label on a menu item. Pressing this menu item hides
+         the navigation controls on the right side. [CHAR LIMIT=20] -->
+    <string name="hide_controls">"Hide controls"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         navigation controls on the right side. [CHAR LIMIT=20] -->
+    <string name="show_controls">"Show controls"</string>
+
+    <!-- Month view -->
+    <skip />
+
+    <!-- Select Visible Calendars activity -->
+    <skip />
+    <!-- Title of "My calendars" screen -->
+    <string name="select_visible_calendars_title">"Calendars to display"</string>
+    <!-- Synced and visible status message -->
+
+    <!-- Synced but not visible status message -->
+
+    <!-- not Synced or visible status message -->
+
+    <!-- Synced status message displayed when the given calendar is stored/synced on the device
+        [CHAR LIMIT=60] -->
+    <string name="synced"> synced</string>
+    <!-- Not synced status message displayed when the given calendar is not stored/synced on the
+        device [CHAR LIMIT=60] -->
+    <string name="not_synced"> not synced</string>
+    <!-- Message displayed to user when an account with Calendars is not being auto-synced
+        [CHAR LIMIT=120]-->
+    <string name="acct_not_synced">This account isn\'t being synced so your calendars may
+        not be up-to-date.</string>
+    <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
+    <string name="accounts">Accounts &amp; sync</string>
+
+    <!-- Select Synced Calendars activity -->
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+    <string name="select_synced_calendars_title">Calendars to sync</string>
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+    <string name="select_synced_calendars_button">Calendars to sync</string>
+
+    <!-- Event edit activity -->
+    <skip />
+    <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
+
+    <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
+    <string name="hint_what">"Event name"</string>
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+    <string name="hint_where">"Location"</string>
+    <!-- Default value of Description field (as a hint to the user) [CHAR LIMIT=15]-->
+    <string name="hint_description">"Description"</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+    <string name="hint_attendees">"Guests"</string>
+    <!-- Toast message displayed when a new event is created -->
+    <string name="creating_event">"Event created."</string>
+    <!-- Toast message displayed when an existing event is saved after being modified -->
+    <string name="saving_event">"Event saved."</string>
+    <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
+    <string name="empty_event">"Empty event not created."</string>
+    <!-- Toast message displayed when a new event with guests is created -->
+    <string name="creating_event_with_guest">"Invitations will be sent."</string>
+    <!-- Toast message displayed when an existing event with guests is saved after being modified -->
+    <string name="saving_event_with_guest">"Updates will be sent."</string>
+    <!-- Title of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+
+    <!-- Body of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+
+
+    <!-- Create event dialog -->
+    <skip />
+    <!-- Create event dialog save button [CHAR LIMIT=10] -->
+    <string name="create_event_dialog_save">Save</string>
+
+    <!-- The alert toast is not actually being displayed for some reason. -->
+    <skip />
+    <!-- the title of the alert/notification activity -->
+    <string name="alert_title">Calendar notifications</string>
+    <!-- Notification window messages: -->
+    <skip />
+
+    <!-- Event info/edit screen labels:-->
+    <skip />
+    <!-- This is the title of the screen used to view the details of an event -->
+    <string name="event_info_title">View event</string>
+    <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
+    <string name="event_info_title_invite">Meeting invitation</string>
+
+    <!-- EditEventActivity specific strings: -->
+    <skip />
+    <!-- Events have a start date/time and an end date/time. The display shows
+         the start and end times like 'From start date To end date'. This is the
+         label before the 'end date'. -->
+    <string name="edit_event_to_label">To</string>
+    <!-- Events have a start date/time and an end date/time. The display shows
+         the start and end times like 'From start date To end date'. This is the
+         label before the 'start date'. -->
+    <string name="edit_event_from_label">From</string>
+    <!-- Check box label that specifies if this is an all-day event -->
+    <string name="edit_event_all_day_label">All day</string>
+    <!-- Label for choosing one of the calendars -->
+    <string name="edit_event_calendar_label">Calendar</string>
+    <!-- Menu item to show all choices [CHAR LIMIT=22]-->
+    <string name="edit_event_show_all">Show all</string>
+    <!-- Label for the event description -->
+    <string name="description_label">Description</string>
+    <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
+    <string name="presence_label">Show me as</string>
+    <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
+    <string name="privacy_label">Privacy</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+    <string name="reminders_label">Add reminder</string>
+    <!-- Title of alert shown if the user tries to create an event and has no calendars -->
+    <string name="no_syncable_calendars">No calendars</string>
+    <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
+    <string name="no_calendars_found">Before you can add an event, you must add at least one Calendar account to your device and make a calendar visible. Touch Add Account to add an account (if you just added an account, wait for it to finish syncing and try again). Or touch Cancel and make sure at least one calendar is visible.</string>
+    <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+    <string name="create_an_account_desc">"Calendar works better with a Google Account.\n\n\u2022 Access it from any web browser\n\u2022 Back up your events securely"</string>
+    <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
+    <string name="add_account">Add account</string>
+
+    <!-- View Event -->
+    <skip />
+    <!-- Label for which calendar an event is part of -->
+    <string name="view_event_calendar_label">Calendar:</string>
+    <!-- Label for the event organizer -->
+    <string name="view_event_organizer_label">Organizer:</string>
+    <!-- Label for the local timezone -->
+
+    <!-- Label for showing event color picker -->
+    <string name="choose_event_color_label">Choose event color</string>
+    <!-- Title for event color picker dialog -->
+    <string name="event_color_picker_dialog_title">Event Color</string>
+    <!-- Label for button which sets event color to default calendar color -->
+    <string name="event_color_set_to_default">Set to default calendar color</string>
+
+    <!-- Title for calendar color picker dialog -->
+    <string name="calendar_color_picker_dialog_title">Calendar Color</string>
+    <!-- Description for calendar color squares, which bring up the color picker. -->
+    <string name="calendar_square_color_picker_description">Color picker</string>
+
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+    <string name="view_event_response_label">Attending?</string>
+    <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
+    <string name="response_yes">Yes</string>
+    <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
+    <string name="response_maybe">Maybe</string>
+    <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
+    <string name="response_no">No</string>
+    <!-- Label for emailing attendees -->
+    <string name="email_guests_label">Email guests</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
+    <string name="email_organizer_label">Email organizer</string>
+    <!-- This is shown in the popup picker when emailing attendees -->
+    <string name="email_picker_label">Email with</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title -->
+    <string name="email_subject_prefix" translatable="false">Re:\u0020</string>
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+    <string name="event_not_found">"Event not found."</string>
+
+    <!-- Notification label for getting a map of the location. -->
+    <string name="map_label">Map</string>
+    <!-- Notification label for calling a phone number in the location. -->
+    <string name="call_label">Call</string>
+
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+    <string name="quick_response_settings">Quick responses</string>
+    <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
+    <string name="quick_response_settings_summary">Edit default responses when emailing guests</string>
+    <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+    <string name="quick_response_settings_title">Edit quick responses</string>
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+    <string name="quick_response_settings_edit_title">Quick response</string>
+
+    <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
+    <string name="quick_response_dialog_title">Choose quick response</string>
+    <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
+    <string name="quick_response_email_failed">Failed to find an email program</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
+    <string-array name="quick_response_defaults">
+        <item>Running just a couple of minutes late.</item>
+        <item>Be there in about 10 minutes.</item>
+        <item>Go ahead and start without me.</item>
+        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    </string-array>
+    <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
+    <string name="quick_response_custom_msg">Write your own\u2026</string>
+
+    <!-- Event Info strings-->
+    <!-- Time Zone Label [CHAR LIMIT=12]-->
+
+    <!-- Repetition Label [CHAR LIMIT=12]-->
+
+    <!-- Organizer Label [CHAR LIMIT=12]-->
+    <string name="event_info_organizer">Organizer:</string>
+    <!-- Reminders label [CHAR LIMIT=15]-->
+    <string name="event_info_reminders_label">Reminders</string>
+
+    <!-- Agenda View strings -->
+    <skip />
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_today">TODAY, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_yesterday">YESTERDAY, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_tomorrow">TOMORROW, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown while the calendar events are being loading to the screen. -->
+    <string name="loading">Loading\u2026</string>
+    <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
+    <string name="show_older_events">Touch to view events before <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
+    <string name="show_newer_events">Touch to view events after <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+
+    <!-- Search activity strings -->
+    <skip />
+    <!-- Title of the search screen [CHAR LIMIT=30] -->
+    <string name="search_title">Search my calendars</string>
+
+    <!-- Button labels: -->
+    <skip />
+    <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
+    <string name="edit_event_label">"Details"</string>
+    <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
+    <string name="edit_label">"Edit"</string>
+    <!-- The button label for deleting an event -->
+    <string name="delete_label">"Delete"</string>
+    <!-- A menu item for deleting an event -->
+
+    <!-- The button label for saving an event -->
+    <string name="save_label">Done</string>
+    <!-- The button label for discarding changes to an event -->
+    <string name="discard_label">Cancel</string>
+
+    <!-- Button labels on expanded notification reminders: -->
+    <skip />
+    <!-- The button label for making the reminder alarms go away temporarily.
+         The reminder alarms will fire off again in 5 minutes. -->
+    <string name="snooze_all_label">"Snooze all"</string>
+    <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
+    <string name="dismiss_all_label">"Dismiss all"</string>
+    <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
+    <string name="snooze_label">"Snooze"</string>
+
+    <!-- Repetition dialog options: -->
+    <skip />
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
+    <string name="does_not_repeat">One-time event</string>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+    <string name="endByDate">; until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+    <plurals name="endByCount">
+        <item quantity="one">; for one time</item>
+        <item quantity="other">; for <xliff:g id="number">%d</xliff:g> times</item>
+    </plurals>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+    <plurals name="daily">
+        <item quantity="one">Daily</item>
+        <item quantity="other">Every <xliff:g id="number">%d</xliff:g> days</item>
+    </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
+    <string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+    <plurals name="weekly">
+        <item quantity="one">Weekly on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    </plurals>
+
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
+    <string name="monthly">Monthly</string>
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
+    <string name="yearly_plain">Yearly</string>
+    <!-- Example: "Monthly (on day 15)" -->
+    <string name="monthly_on_day">"Monthly (on day <xliff:g id="day_of_month">%s</xliff:g>)"</string>
+    <!-- Example: "Yearly (on April 15)" -->
+    <string name="yearly">"Yearly (on <xliff:g id="dates">%s</xliff:g>)"</string>
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
+
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
+    <string name="custom" product="default">"Custom (can\'t customize on phone)"</string>
+
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
+    <string name="modify_event">Change only this event</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
+    <string name="modify_all">Change all events in the series</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
+    <string name="modify_all_following">Change this and all future events</string>
+
+    <!-- Dialogs -->
+
+    <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
+    <string name="new_event_dialog_label">"New event"</string>
+    <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
+    <string name="new_event_dialog_option">"New event"</string>
+    <!-- Confirmation dialog message -->
+    <skip />
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
+    <string name="delete_this_event_title">Delete this event?</string>
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
+    <string name="delete_recurring_event_title">Delete <xliff:g id="eventtitle">%s</xliff:g>?</string>
+    <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
+    <string name="change_response_title">Change response</string>
+
+    <!-- This the title of a menu for General Preferences.
+         Pressing the menu item lets user to view and edit his general settings
+         (or preferences) [CHAR LIMIT=30] -->
+    <string name="menu_general_preferences">General settings</string>
+
+    <!-- This the title of a menu for "About Calendar" Preferences.
+         Pressing the menu item lets user to view the current settings
+         [CHAR LIMIT=30] -->
+    <string name="menu_about_preferences">About Calender</string>
+
+    <!-- This is the title of the screen for setting user preferences. -->
+    <string name="preferences_title">"Settings"</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
+    <string name="preferences_general_title">Calendar view setting</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
+    <string name="preferences_reminder_title">Notifications \u0026 reminders</string>
+    <!-- Settings check box label to hide events that the user has declined to attend -->
+    <string name="preferences_hide_declined_title">Hide declined events</string>
+    <!-- Settings week start label to start week on specific day-->
+    <string name="preferences_week_start_day_title">Week starts on</string>
+    <!-- Title of popup for week start day setting-->
+    <string name="preferences_week_start_day_dialog">Week starts on</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="preferences_week_start_day_default">-1</string>
+    <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
+    <string name="preferences_clear_search_history_title">Clear search history</string>
+    <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
+    <string name="preferences_clear_search_history_summary">Remove all the searches you\'ve performed</string>
+    <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
+    <string name="search_history_cleared">Search history cleared.</string>
+    <!-- Settings check box label to enable or disable notifications -->
+    <string name="preferences_alerts_title">Notifications</string>
+    <!-- Settings dialog label that specifies when the phone should vibrate -->
+    <string name="preferences_alerts_vibrateWhen_title">Vibrate</string>
+    <!-- The old value for enabling vibration. used only for migrating -->
+    <string name="prefDefault_alerts_vibrate_true" translatable="false">always</string>
+    <!-- Title of ringtone selector dialog -->
+    <string name="preferences_alerts_ringtone_title">Sound</string>
+    <!-- Title of check box label to enable or disable pop-up notifications -->
+    <string name="preferences_alerts_popup_title">Pop-up notification</string>
+    <!-- List item label for setting the default number of reminder minutes -->
+    <string name="preferences_default_reminder_title">Default reminder time</string>
+    <!-- Title of dialog for setting the default number of reminder minutes -->
+    <string name="preferences_default_reminder_dialog">Default reminder time</string>
+    <!-- Default value for the number of reminder minutes -->
+    <string name="preferences_default_reminder_default">10</string>
+    <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
+    <string name="preferences_use_home_tz_title">Use home time zone</string>
+    <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
+    <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
+    <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
+    <string name="preferences_home_tz_title">Home time zone</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="preferences_home_tz_default">America/Los_Angeles</string>
+
+    <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
+    <string name="preferences_show_week_num_title">Show week number</string>
+
+    <!-- This is the title of a section in the Settings screen for "About" this application -->
+    <string name="preferences_about_title">About</string>
+    <!-- Build version of the application -->
+    <string name="preferences_build_version">Build version</string>
+
+    <!-- Widget -->
+    <skip />
+    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <!--<string name="gadget_title">Calendar</string>-->
+
+    <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
+    <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+        <item quantity="one">"+1"</item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
+        <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
+    </plurals>
+
+    <!-- Caption to show on gadget when there are no upcoming calendar events -->
+    <string name="gadget_no_events">No upcoming calendar events</string>
+
+    <!-- Text to show on gadget when an event is currently in progress -->
+
+
+    <!-- Text to show on gadget when an all-day event is in progress -->
+
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="tardis">TARDIS</string>
+
+    <!-- Experimental settings [CHAR LIMIT = 30]-->
+    <string name="preferences_experimental_category">Experimental</string>
+
+    <!-- Reminders settings [CHAR LIMIT = 30]-->
+    <string name="preferences_reminders_category">Reminders</string>
+    <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
+    <string name="preferences_reminders_responded_label">Skip Reminders</string>
+    <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
+    <string name="preferences_reminders_responded_dialog">Skip Reminders</string>
+    <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_label">Quiet hours</string>
+    <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
+    <string name="preferences_reminders_quiet_hours_description">Silence event reminders during specified time.</string>
+    <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_start">Quiet hours start time</string>
+    <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_end">Quiet hours end time</string>
+
+    <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
+    <string name="preferences_debug_category">Debugging</string>
+
+    <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
+    <string name="copy_db">Send database</string>
+
+    <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+    <string name="directory_searching_fmt">Searching <xliff:g id="domain">%s</xliff:g>\u2026</string>
+
+    <!-- Accessibility Events -->
+    <!-- Strings that describes actions for buttons without text -->
+    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+
+    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_remove_attendee">Remove attendee</string>
+    <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_start_date">Start date</string>
+    <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_start_time">Start time</string>
+    <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_end_date">End date</string>
+    <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_end_time">End time</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_time_zone">Time zone</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_recurrence">Repeat event</string>
+    <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_add_reminder">Add reminder</string>
+    <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_remove_reminder">Remove reminder</string>
+    <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_add_attendee">Add attendee</string>
+    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <string name="accessibility_sync_cal">Sync calendar</string>
+    <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
+    <string name="accessibility_all_day">All day event</string>
+    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+
+    <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
+    <string name="accessibility_repeats">Repetition</string>
+    <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_time">Reminder time</string>
+    <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_type">Reminder type</string>
+    <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_showmeas">Show me as</string>
+    <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_privacy">Privacy</string>
+    <!-- Calendar notification [CHAR LIMIT = NONE]-->
+    <string name="acessibility_cal_notification">Calendar Notification</string>
+    <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
+    <string name="acessibility_snooze_notification">Snooze Notification</string>
+    <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+    <string name="accessibility_email_notification">Email guests</string>
+
+    <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
+    <string name="day_view_new_event_hint">+ New event</string>
+
+    <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
+    <string name="template_announce_item_index">Event <xliff:g id="item_index">%1$s</xliff:g> of <xliff:g id="item_count">%2$s</xliff:g>.</string>
+
+    <!-- number of events in the notification bar -->
+    <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
+        <item quantity="one">1 event</item>
+        <!-- This is the label for 2 or more events. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+    <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
+        <item quantity="one">+1 event</item>
+        <!-- This is the label for 2 or more events. -->
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+    <string name="acessibility_selected_marker_description">Selected event</string>
+
+    <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+    <string name="do_not_check">Do NOT check -></string>
+
+    <!-- Dialog title for recurrence picker for configuring a repeating event[CHAR LIMIT=20] -->
+    <string name="recurrence_dialog_title">Repeat</string>
+    <!-- Dialog title for recurrence picker when one-time event is selected [CHAR LIMIT=20] -->
+    <string name="recurrence_dialog_title_never">Never repeats</string>
+
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> day</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> week</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> weeks</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> month</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> months</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> year</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> years</item>
+    </plurals>
+
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_continously">Forever</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+    <string name="recurrence_end_date_label">Until a date</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_date">Until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+    <string name="recurrence_end_count_label">For a number of events</string>
+
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <xliff:g id="event_count">%d</xliff:g> event</item>
+        <item quantity="other">For <xliff:g id="event_count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+
+    <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
+    <string name="notification_sender_id" translatable="false"></string>
+
+
+    <!--Google Travel Record-->
+
+    <string name="current_location">Current location</string>
+    <string name="notice">Notice</string>
+    <string name="location_search_timeout">It was not possible to retrieve your position. Would you like to use your last known position? Warning: your last known position is less accurate than the one captured at this moment.</string>
+    <string name="invalid_position">It was not possible to define a valid position. Please verify your GPS and Internet connections and try again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="newcategory_name_choosing_dialog_title">New category</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="enable_location_services">The location services are disable. You need to enable it to be able to use this app\'s features. Would you like to do it now?</string>
+    <string name="google_client_not_connected">There was a problem trying to connect google client. While this not happen, locations updates willbe provided just by sattelite.</string>
+    <string name="getting_current_location">Getting your current coordinates . . .</string>
+    <string name="locations_permission_denied_msg">It will not be possible to use LocationServices until you give this permission.</string>
+    <string name="latitude_pos" translatable="false">-1</string>
+    <string name="longitude_pos" translatable="false">-1</string>
+
+    <string name="create_sample_data">Create sample data</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="sort_date">Sort by Date</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="all_deleted">All notes deleted</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="new_note">New note</string>
+    <string name="note_updated">Note updated</string>
+
+    <string name="note_deleted">Note deleted</string>
+    <string name="note">Note</string>
+    <string name="enter_note_here">Enter note here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="camera">List</string>
+    <string name="audio">Map</string>
+
+    <!--alarm-->
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <!--<string name="app_label" translatable="false">LightUpDroid Alarm</string>-->
+
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">Alarms</string>
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <!--<string name="add_alarm">Add alarm</string>-->
+
+    <!-- Title text for alarm timeline view [CHAR LIMIT=20] -->
+    <string name="alarm_timeline_title_text">NEXT ALARMS</string>
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Desk clock</string>
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Edit alarm</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Delete alarm</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Turn alarm on</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Turn alarm off</string>
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Delete this alarm?</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Show clock</string>
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Hide clock</string>
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <!--<string name="label">Label</string>-->
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarm</string>
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">Set alarm</string>
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Vibrate</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Repeat</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Alarm Ringtone</string>
+
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">Ringtone</string>
+
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <!--<string name="time">Time</string>-->
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Dismiss</string>
+
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Dismiss Now</string>
+
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_missed_title">Missed alarm</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_alert_silenced">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Snooze</string>
+
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">Snoozing until <xliff:g id="time">%s</xliff:g></string>
+
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Upcoming alarm</string>
+
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Your missed alarm has been deleted</string>
+
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    -->
+    <skip />
+
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string-array name="timer_notifications">
+        <item>Less than a minute remaining</item>
+        <item><xliff:g example="2 hours" id="HOURS">%1$s</xliff:g> remaining</item>
+        <item><xliff:g example="2 minutes" id="MINUTES">%2$s</xliff:g> remaining</item>
+        <item><xliff:g example="2 hours" id="HOURS">%1$s</xliff:g> <xliff:g example="2 minutes" id="MINUTES">%2$s</xliff:g> remaining</item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>Alarm set for less than 1 minute from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 day"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <!--<string name="days">"<xliff:g id="days">%s</xliff:g> days"</string>-->
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 hour</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> hours</string>
+
+    <!-- Alarm confirmation toast: singular minute  -->
+    <string name="minute">"1 minute"</string>
+
+    <!-- Alarm confirmation toast: plural minutes  -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutes"</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <!--<string name="every_day">Every day</string>-->
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->
+    <string name="never">Never</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">", "</string>
+
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+    <string name="clock_instructions">Choose a clock</string>
+
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">Analog clock</string>
+
+    <!-- Help activity name -->
+    <string name="help">help</string>
+
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">Settings</string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Snooze length</string>
+
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g example="7" id="number">%d</xliff:g> minutes</item>
+    </plurals>
+
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">minutes</item>
+    </plurals>
+
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Silence after</string>
+
+    <!-- Auto silence summary string set based on the preference value. -->
+    <string name="auto_silence_summary"><xliff:g id="minutes">%d</xliff:g> minutes</string>
+
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Never</string>
+
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+        <item>1 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>Never</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the auto_silence_entries above. -->
+    <string-array name="auto_silence_values" translatable="false">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>-1</item> <!-- Off -->
+    </string-array>
+
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Done</string>
+
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Revert</string>
+
+    <!-- Delete button when editing an alarm. -->
+    <!--<string name="delete">Delete</string>-->
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Alarm volume</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">Silent</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Snooze or dismiss alarm.</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (snoozed)</string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Alarm set for <xliff:g id="time">%s</xliff:g>. Touch to cancel.</string>
+
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">Volume buttons</string>
+
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Button effect</string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Snooze</item>
+        <item>Dismiss</item>
+        <item>Do nothing</item>
+    </string-array>
+
+    <!-- Values for the side-button setting. -->
+    <string-array name="volume_button_setting_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">Set default ringtone</string>
+
+    <!-- Accessibility labels for Clock activity buttons -->
+    <skip />
+    <string name="alarm_button_description">Alarms</string>
+    <string name="gallery_button_description">Gallery</string>
+    <string name="music_button_description">Music</string>
+    <string name="nightmode_button_description">Dim</string>
+    <string name="home_button_description">Launcher</string>
+    <string name="desk_clock_button_description">Clock display</string>
+
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Label</string>
+    <string name="ringtone_description">Ringtone</string>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+    <string name="weather_fetch_failure">Weather information isn\'t available right now.</string>
+
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in Clock.</string>
+
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">Loading ringtone\u2026</string>
+
+    <!-- A description for the DeskClock timer sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="timer_ring_service_desc">Sound playback service for timers set in Clock.</string>
+
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Set alarm</string>
+
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
+
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Alarm</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">Timer</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">Clock</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">Stopwatch</string>
+
+    <!--- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">Alarms</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">Cities</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">More options</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">Settings</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">Help</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">Night mode</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Sort by time</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Sort by name</string>
+
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Selected Cities</string>
+
+    <!-- Stop Watch strings -->
+    <!-- Describes the purpose of the button to resume running a stopwatch -->
+    <string name="sw_resume_button">Resume</string>
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">Start</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_stop_button">Stop</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
+    <string name="sw_lap_button">Lap</string>
+    <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
+    <string name="sw_reset_button">Reset</string>
+    <!-- Describes the purpose of the button to share the stopwatch value. -->
+    <string name="sw_share_button">Share</string>
+
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">h</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">m</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">s</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">hours</string>
+    <string name="minutes_label_description">minutes</string>
+    <string name="seconds_label_description">seconds</string>
+
+    <string name="zero">0</string>
+
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">My time is <xliff:g id="time">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">Lap times:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">Lap <xliff:g id="number">%d</xliff:g></string>
+    <!-- Formatted stopwatch time -->
+    <string-array name="stopwatch_format_set" translatable="false">
+        <item> <!-- <10 minutes - example "1 02.03" -->
+            <xliff:g id="M">%2$d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <1 hour - example "12 03.04" -->
+            <xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <10 hours - example "1 02 03.04" -->
+            <xliff:g id="H">%1$d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <100 hours - example "12 03 04.05" -->
+            <xliff:g id="H">%1$02d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <1000 hours - example "123 04 05.06" -->
+            <xliff:g id="H">%1$03d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+    </string-array>
+
+    <!-- Formatted stopwatch time for laps shared using the share button -->
+    <string-array name="shared_laps_format_set" translatable="false">
+        <item> <!-- <10 minutes - example "1 02.03" -->
+            <xliff:g id="lap">%6$d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g> &#x200E;<xliff:g id="M">%2$d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <1 hour - example "12 03.04" -->
+            <xliff:g id="lap">%6$d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <10 hours - example "1 02 03.04" -->
+            <xliff:g id="lap">%6$d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g> &#x200E;<xliff:g id="H">%1$d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <100 hours - example "12 03 04.05" -->
+            <xliff:g id="lap">%6$d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g> &#x200E;<xliff:g id="H">%1$02d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+        <item> <!-- <1000 hours - example "123 04 05.06" -->
+            <xliff:g id="lap">%6$d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g> &#x200E;<xliff:g id="H">%1$03d</xliff:g> &#x200E;<xliff:g id="M">%2$02d</xliff:g> &#x200E;<xliff:g id="S">%3$02d</xliff:g><xliff:g id="decimal_separator">%5$c</xliff:g><xliff:g id="D">%4$02d</xliff:g>
+        </item>
+    </string-array>
+
+    <!-- Label to enumerate the number of laps the user has counted -->
+    <string-array name="sw_lap_number_set" translatable="false">
+        <item># <xliff:g id="number">%d</xliff:g></item>
+        <item># <xliff:g id="number">%02d</xliff:g></item>
+    </string-array>
+
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">1 hour</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g example="7" id="number">%d</xliff:g> hours</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">1 minute</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g example="7" id="number">%d</xliff:g> minutes</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">1 second</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g example="7" id="number">%d</xliff:g> seconds</item>
+    </plurals>
+
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">Add Timer</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">Start</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">Delete</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">Add 1 Minute</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Add 1 min</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">Stop</string>
+    <!-- Describes the purpose of the button to stop and delete the timer. -->
+    <string name="timer_done">Done</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">Reset</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">Cancel</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">Time\'s up</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">Timer</string>
+
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>You\'re quite the speed demon.</item>
+        <item>Enjoy the fruits of your labor.</item>
+        <item>Androids are known to be fast, but not as fast as you!</item>
+        <item>Phew.</item>
+        <item>L33t times.</item>
+        <item>Such prodigious velocity.</item>
+        <item>Let\'s do the time warp again.</item>
+        <item>Just a jump to the left.</item>
+        <item>You have a palette for haste.</item>
+        <item>Photonic velocity.</item>
+    </string-array>
+
+    <plurals name="timers_num">
+        <!-- 1 timer -->
+        <item quantity="one">1 minute</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g example="7" id="number">%d</xliff:g> timers</item>
+    </plurals>
+
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">Home</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">Cities</string>
+
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">CLOCK</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">Style</string>
+
+    <!-- Entries listed in the ListPreference when invoking the clock style
+         preference. -->
+    <string-array name="clock_style_entries">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the clock_style_entries above. -->
+    <string-array name="clock_style_values" translatable="false">
+        <item>analog</item>
+        <item>digital</item>
+    </string-array>
+
+    <!-- Title for an option that will automtically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">Automatic home clock</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">While traveling in an area where the time is different, add a clock for home</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">Home time zone</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">Home time zone</string>
+
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">Cancel</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Marshall Islands"</item>
+        <item>"Midway Island"</item>
+        <item>"Hawaii"</item>
+        <item>"Alaska"</item>
+        <item>"Pacific Time"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Mountain Time"</item>
+        <item>"Central America"</item>
+        <item>"Central Time"</item>
+        <item>"Mexico City"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Eastern Time"</item>
+        <item>"Venezuela"</item>
+        <item>"Atlantic Time (Barbados)"</item>
+        <item>"Atlantic Time (Canada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Newfoundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Greenland"</item>
+        <item>"Montevideo"</item>
+        <item>"Mid-Atlantic"</item>
+        <item>"Azores"</item>
+        <item>"Cape Verde Islands"</item>
+        <item>"Casablanca"</item>
+        <item>"London, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrade"</item>
+        <item>"Brussels"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"W. Africa Time"</item>
+        <item>"Amman, Jordan"</item>
+        <item>"Athens, Istanbul"</item>
+        <item>"Beirut, Lebanon"</item>
+        <item>"Cairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Jerusalem"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Baghdad"</item>
+        <item>"Moscow"</item>
+        <item>"Kuwait"</item>
+        <item>"Nairobi"</item>
+        <item>"Tehran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Yerevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karachi"</item>
+        <item>"Ural'sk"</item>
+        <item>"Yekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnoyarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Beijing"</item>
+        <item>"Hong Kong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipei"</item>
+        <item>"Seoul"</item>
+        <item>"Tokyo, Osaka"</item>
+        <item>"Yakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Vladivostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fiji"</item>
+        <item>"Tonga"</item>
+        <item>"Jakarta"</item>
+    </string-array>
+
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+
+    <string-array name="timezone_values" translatable="false">
+        <item>"Pacific/Majuro"</item>
+        <item>"Pacific/Midway"</item>
+        <item>"Pacific/Honolulu"</item>
+        <item>"America/Anchorage"</item>
+        <item>"America/Los_Angeles"</item>
+        <item>"America/Tijuana"</item>
+        <item>"America/Phoenix"</item>
+        <item>"America/Chihuahua"</item>
+        <item>"America/Denver"</item>
+        <item>"America/Costa_Rica"</item>
+        <item>"America/Chicago"</item>
+        <item>"America/Mexico_City"</item>
+        <item>"America/Regina"</item>
+        <item>"America/Bogota"</item>
+        <item>"America/New_York"</item>
+        <item>"America/Caracas"</item>
+        <item>"America/Barbados"</item>
+        <item>"America/Halifax"</item>
+        <item>"America/Manaus"</item>
+        <item>"America/Santiago"</item>
+        <item>"America/St_Johns"</item>
+        <item>"America/Sao_Paulo"</item>
+        <item>"America/Argentina/Buenos_Aires"</item>
+        <item>"America/Godthab"</item>
+        <item>"America/Montevideo"</item>
+        <item>"Atlantic/South_Georgia"</item>
+        <item>"Atlantic/Azores"</item>
+        <item>"Atlantic/Cape_Verde"</item>
+        <item>"Africa/Casablanca"</item>
+        <item>"Europe/London"</item>
+        <item>"Europe/Amsterdam"</item>
+        <item>"Europe/Belgrade"</item>
+        <item>"Europe/Brussels"</item>
+        <item>"Europe/Sarajevo"</item>
+        <item>"Africa/Windhoek"</item>
+        <item>"Africa/Brazzaville"</item>
+        <item>"Asia/Amman"</item>
+        <item>"Europe/Athens"</item>
+        <item>"Asia/Beirut"</item>
+        <item>"Africa/Cairo"</item>
+        <item>"Europe/Helsinki"</item>
+        <item>"Asia/Jerusalem"</item>
+        <item>"Europe/Minsk"</item>
+        <item>"Africa/Harare"</item>
+        <item>"Asia/Baghdad"</item>
+        <item>"Europe/Moscow"</item>
+        <item>"Asia/Kuwait"</item>
+        <item>"Africa/Nairobi"</item>
+        <item>"Asia/Tehran"</item>
+        <item>"Asia/Baku"</item>
+        <item>"Asia/Tbilisi"</item>
+        <item>"Asia/Yerevan"</item>
+        <item>"Asia/Dubai"</item>
+        <item>"Asia/Kabul"</item>
+        <item>"Asia/Karachi"</item>
+        <item>"Asia/Oral"</item>
+        <item>"Asia/Yekaterinburg"</item>
+        <item>"Asia/Calcutta"</item>
+        <item>"Asia/Colombo"</item>
+        <item>"Asia/Katmandu"</item>
+        <item>"Asia/Almaty"</item>
+        <item>"Asia/Rangoon"</item>
+        <item>"Asia/Krasnoyarsk"</item>
+        <item>"Asia/Bangkok"</item>
+        <item>"Asia/Shanghai"</item>
+        <item>"Asia/Hong_Kong"</item>
+        <item>"Asia/Irkutsk"</item>
+        <item>"Asia/Kuala_Lumpur"</item>
+        <item>"Australia/Perth"</item>
+        <item>"Asia/Taipei"</item>
+        <item>"Asia/Seoul"</item>
+        <item>"Asia/Tokyo"</item>
+        <item>"Asia/Yakutsk"</item>
+        <item>"Australia/Adelaide"</item>
+        <item>"Australia/Darwin"</item>
+        <item>"Australia/Brisbane"</item>
+        <item>"Australia/Hobart"</item>
+        <item>"Australia/Sydney"</item>
+        <item>"Asia/Vladivostok"</item>
+        <item>"Pacific/Guam"</item>
+        <item>"Asia/Magadan"</item>
+        <item>"Pacific/Auckland"</item>
+        <item>"Pacific/Fiji"</item>
+        <item>"Pacific/Tongatapu"</item>
+        <item>"Asia/Jakarta"</item>
+    </string-array>
+
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">ALARMS</string>
+    <!-- Describes the purpose of the button to show the remaining choices whenever there were too many -->
+    <string name="see_all">See all&#8230;</string>
+    <string name="desk_clock_help_url" translatable="false"></string>
+    <!-- Describes the running service for the stopwatch -->
+    <string name="stopwatch_service_desc">Stopwatch service to run the notification.</string>
+    <!-- Desription for the stopped stop watch -->
+    <string name="swn_stopped">Stopped</string>
+
+    <!-- Description of the right direction in the alarm alert screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_right">Slide right to dismiss</string>
+    <!-- Description of the left direction in the alarm alert screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">Slide left to snooze</string>
+    <!-- Description of the up direction in the alarm alert screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">Slide up to dismiss</string>
+    <!-- Description of the down direction in the alarm alert screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">Slide down to snooze</string>
+
+    <!-- Notification title when timer is stopped. -->
+    <string name="timer_stopped">Timer stopped</string>
+    <!-- Notification title when multiple timers are stopped. -->
+    <string name="timers_stopped"><xliff:g example="7" id="number">%d</xliff:g> timers stopped</string>
+    <!-- Notification text when multiple timers are stopped. -->
+    <string name="all_timers_stopped_notif">Touch to see your timers</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g example="7" id="number">%d</xliff:g> timers</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">Next timer: <xliff:g example="2 minutes remaining" id="time_remaining">%s</xliff:g></string>
+
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">Dream settings</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">Night mode</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">Very dim display (for dark rooms)</string>
+
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">Expand alarm</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">Collapse alarm</string>
+
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">undo</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">Alarm deleted.</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash"> / </string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="world_day_of_week_label"> / <xliff:g id="label">%s</xliff:g></string>
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">Next alarm: <xliff:g example="Wed 8:00am" id="alarm_time">%s</xliff:g></string>
+    <string name="label_unlabeled"></string>
+
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> selected</string>
+
+    <!-- message used by the talkback accessebility app to say that something was deleted -->
+    <string name="deleted_message">Deleted</string>
+
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">Delete selected alarm?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Delete selected alarms?</item>
+    </plurals>
+
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">Delete this timer?</string>
+
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">Remove this city?</string>
+
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">Digital clock</string>
+
+    <!-- format strings for clocks -->
+    <string name="clock_24_hours_format" translatable="false">kk&#58;mm</string>
+    <string name="main_widget_12_hours_format" translatable="false">h&#58;mm</string>
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <string name="wc_widget_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <string name="main_clock_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font face="sans-serif-condensed" size="16">a</font></b></string>
+    <!-- Font size for AM/PM should match label_font_size -->
+    <string name="world_clock_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <string name="alarm_time_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font face="sans-serif-condensed" size="14">a</font></b></string>
+
+    <!-- String for no alarms -->
+    <string name="no_alarms">No Alarms</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">NO UPCOMING ALARMS</string>
+
+    <!-- Strings for LightUpPi properties -->
+    <!-- LightUpPi name -->
+    <string name="lightuppi">LightUpPi</string>
+    <string name="lightuppi_alarm">LightUpPi Alarm</string>
+    <!-- LightUpPi settings strings -->
+    <string name="lightuppi_set_server">LightUpPi server address</string>
+    <string name="lightuppi_keep_new_alarms">Keep new phone alarms on sync</string>
+    <string name="lightuppi_keep_new_alarms_summary">When syncing with the LightUpPi server, ensure the new alarms created offline are maintained</string>
+    <string name="lightuppi_invalid_ip">Invalid IP entered, original kept !</string>
+    <!-- Menu items on Alarm fragment screen -->
+    <string name="menu_item_sync_lightuppi">Sync with LightUpPi</string>
+    <string name="menu_item_reset_db">Reset Alarm database</string>
+    <string name="menu_item_push_to_lightuppi">Push Alarms to LightUpPi</string>
+    <string name="menu_item_push_to_phone">Push Alarms to phone</string>
+    <!-- Toast messages for LightUpPi server actions -->
+    <string name="lightuppi_syncing_message">Syncing with LightUpPi server</string>
+    <string name="lightuppi_sync_fail">LightUpPi Sync failed</string>
+    <string name="lightuppi_no_connection">Sync failed, no network connection</string>
+    <string name="lightuppi_response_500">LightUpPi Internal Server Error</string>
+    <string name="lightuppi_response_not_200">Error: LightUpPi server response %1$d</string>
+    <string name="lightuppi_add_successful">LightUpPi Alarm successfully added</string>
+    <string name="lightuppi_add_unsuccessful">LightUpPi Alarm edit UNSUCCESSFUL</string>
+    <string name="lightuppi_add_existing">New alarm already registered in LightUpPi</string>
+    <string name="lightuppi_edit_successful">LightUpPi Alarm successfully edited</string>
+    <string name="lightuppi_edit_unsuccessful">LightUpPi Alarm edit UNSUCCESSFUL</string>
+    <string name="lightuppi_no_server_ID">Alarm does not have a LightUpPi ID</string>
+    <string name="lightuppi_delete_successful">LightUpPi Alarm successfully deleted</string>
+    <string name="lightuppi_delete_unsuccessful">LightUpPi Alarm delete UNSUCCESSFUL</string>
+</resources>

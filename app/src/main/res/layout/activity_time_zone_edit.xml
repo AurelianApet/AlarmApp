@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_cal">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@id/toolbar"
+
+        android:background="?attr/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Time Zone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<TextView-->
+        <!--android:id="@+id/timezone_edit_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_marginBottom="50dp"/>-->
+    <Button
+        android:id="@+id/button_timezone_edit_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/dropdown_ic_arrow_normal_holo_dark"
+        android:gravity="center_vertical|left"
+        android:text="@string/timezone_pick_zone"
+        android:background="@drawable/button"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/timezone_pick_name"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+    <EditText
+        android:id="@+id/timezone_edit_displayname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#fff"
+        android:hint="Custom Name"
+        android:textColorHint="#fff"
+        android:layout_marginTop="10dp">
+    </EditText>
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/timezone_edit_save"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/timezone_save"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="@drawable/button"-->
+        <!--android:textColor="@color/primary_dark"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/timezone_edit_cancel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/timezone_cancel"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="@drawable/button"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/primary_dark"/>-->
+
+</LinearLayout>
+
+    <LinearLayout android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+
+        <Button
+            android:id="@+id/timezone_edit_save"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/timezone_save"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button"
+            android:textColor="@color/primary_dark"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/timezone_edit_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/timezone_cancel"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_cancel_alarm"-->
+            <!--android:text="@string/str_btn_cancel"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:background="@drawable/button"-->
+            <!--android:textColor="@color/primary_dark"-->
+            <!--android:textStyle="bold"/>-->
+
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_set_alarm"-->
+            <!--android:text="@string/str_btn_set_alarm"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content" android:layout_weight="0.5"-->
+            <!--android:background="@drawable/button"-->
+            <!--android:textColor="@color/primary_dark"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginLeft="5dp"/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

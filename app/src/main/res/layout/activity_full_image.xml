@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alarm.technothumb.alarmapplication.travel_record.FullImageActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/rotate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin = "10dp"
+            android:src="@drawable/ic_action_rotate"/>
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin = "10dp"
+            android:src="@drawable/ic_action_cancel"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/notfound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/ll"/>
+
+</RelativeLayout>

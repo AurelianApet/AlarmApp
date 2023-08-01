@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sort_alphabetical"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_alphabetical"
+        android:icon="@drawable/ic_sort_by_alpha_white_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_Color"
+        android:orderInCategory="100"
+        android:title="By Color"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_Priority"
+        android:orderInCategory="100"
+        android:title="By Priority"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_created"
+        android:orderInCategory="100"
+        android:title="By time created"
+
+        app:showAsAction="never" />
+
+   <!-- <item
+        android:id="@+id/action_sort_modified"
+        android:orderInCategory="100"
+        android:title="By time modified"
+
+        app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_sort_date"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Sort by Date"-->
+        <!--android:icon="@drawable/ic_sort_by_alpha_white_24dp"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_sort_country"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Sort by Country"-->
+        <!--android:icon="@drawable/ic_sort_by_alpha_white_24dp"-->
+        <!--app:showAsAction="never" />-->
+</menu>
+

@@ -1,0 +1,17 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:1-19:12
+	package
+		ADDED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:17:11-48
+		INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml:18:11-34
+		INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/my/Documents/project/alarm app/AlarmApp2_8_18/AlarmApp/calendarCommon/src/main/AndroidManifest.xml

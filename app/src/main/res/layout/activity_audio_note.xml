@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_cal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:id="@+id/btn_record"
+            android:background="@drawable/ic_mic_black_24dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recording_time"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/seekbar"
+            android:progressTint="#fff"
+            android:thumbTint="#fff" />
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:visibility="invisible"
+            android:id="@+id/btn_play_pause"
+            android:background="@drawable/ic_play_arrow_black_24dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:singleLine="true"
+            android:hint="Enter Title"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Color"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/ColorChange"
+                android:background="@color/white"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/choose_ringtone"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:visibility="gone"
+                style="@style/body"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:textColor="@color/clock_white"
+                android:ellipsize="marquee"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:drawableLeft="@drawable/ic_ringtone"
+                android:drawableStart="@drawable/ic_ringtone"
+                android:drawablePadding="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/vibrate_onoff"
+                android:layout_toStartOf="@+id/vibrate_onoff"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                />
+
+
+            <Spinner android:id="@+id/spinner_Priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fff"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/white"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_line"></include>
+
+</LinearLayout>

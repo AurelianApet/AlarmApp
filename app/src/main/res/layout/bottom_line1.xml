@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/buttonRow"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/action_cancel"
+            android:id="@+id/btn_cancel"
+            android:background="@drawable/button"
+            android:textColor="@color/primary_dark"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textColor="@color/primary_dark"
+            android:text="@string/action_delete"
+            android:visibility="invisible"
+            android:id="@+id/btn_delete"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textColor="@color/primary_dark"
+            android:text="@string/action_save"
+            android:id="@+id/btn_save"
+            />
+    </LinearLayout>
+
+</LinearLayout>

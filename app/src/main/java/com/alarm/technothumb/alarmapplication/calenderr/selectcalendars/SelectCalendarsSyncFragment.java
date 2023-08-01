@@ -1,0 +1,202 @@
+package com.alarm.technothumb.alarmapplication.calenderr.selectcalendars;
+
+import android.accounts.Account;
+import android.app.Activity;
+import android.app.ListFragment;
+import android.app.LoaderManager;
+import android.content.ContentResolver;
+import android.content.ContentUris;
+import android.content.ContentValues;
+import android.content.CursorLoader;
+import android.content.Intent;
+import android.content.Loader;
+import android.content.res.Resources;
+import android.database.ContentObserver;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.CalendarContract;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.TextView;
+
+import com.alarm.technothumb.alarmapplication.R;
+import com.alarm.technothumb.alarmapplication.calenderr.AsyncQueryService;
+import com.alarm.technothumb.alarmapplication.calenderr.Utils;
+
+import java.util.HashMap;
+
+/**
+ * Created by NIKUNJ on 01-02-2018.
+ */
+
+public class SelectCalendarsSyncFragment extends ListFragment
+        implements View.OnClickListener, LoaderManager.LoaderCallbacks<Cursor> {
+
+    private static final String TAG = "SelectCalendarSync";
+
+    private static final String COLLATE_NOCASE = " COLLATE NOCASE";
+    private static final String SELECTION = CalendarContract.Calendars.ACCOUNT_NAME + "=? AND "
+            + CalendarContract.Calendars.ACCOUNT_TYPE + "=?";
+    // is primary lets us sort the user's main calendar to the top of the list
+    private static final String IS_PRIMARY = "\"primary\"";
+    private static final String SORT_ORDER = IS_PRIMARY + " DESC," + CalendarContract.Calendars.CALENDAR_DISPLAY_NAME
+            + COLLATE_NOCASE;
+
+    private static final String[] PROJECTION = new String[] {
+            CalendarContract.Calendars._ID,
+            CalendarContract.Calendars.CALENDAR_DISPLAY_NAME,
+            CalendarContract.Calendars.CALENDAR_COLOR,
+            CalendarContract.Calendars.SYNC_EVENTS,
+            CalendarContract.Calendars.ACCOUNT_NAME,
+            CalendarContract.Calendars.ACCOUNT_TYPE,
+            "(" + CalendarContract.Calendars.ACCOUNT_NAME + "=" + CalendarContract.Calendars.OWNER_ACCOUNT + ") AS " + IS_PRIMARY, };
+    private final String[] mArgs = new String[2];
+    private TextView mSyncStatus;
+    private Button mAccountsButton;
+    private Account mAccount;
+    private AsyncQueryService mService;
+    private Handler mHandler = new Handler();
+    private ContentObserver mCalendarsObserver = new ContentObserver(mHandler) {
+        @Override
+        public void onChange(boolean selfChange) {
+            // We don't need our own sync changes to trigger refreshes.
+            if (!selfChange) {
+                getLoaderManager().initLoader(0, null, SelectCalendarsSyncFragment.this);
+            }
+        }
+    };
+
+    public SelectCalendarsSyncFragment() {
+    }
+
+    public SelectCalendarsSyncFragment(Bundle bundle) {
+        mAccount = new Account(bundle.getString(CalendarContract.Calendars.ACCOUNT_NAME),
+                bundle.getString(CalendarContract.Calendars.ACCOUNT_TYPE));
+    }
+
+    @Override
+    public View onCreateView(
+            LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.account_calendars, null);
+        mSyncStatus = (TextView) v.findViewById(R.id.account_status);
+        mSyncStatus.setVisibility(View.GONE);
+
+        mAccountsButton = (Button) v.findViewById(R.id.sync_settings);
+        mAccountsButton.setVisibility(View.GONE);
+        mAccountsButton.setOnClickListener(this);
+
+        return v;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        // Give some text to display if there is no data. In a real
+        // application this would come from a resource.
+        setEmptyText(getActivity().getText(R.string.no_syncable_calendars));
+        // Prepare the loader. Either re-connect with an existing one,
+        // or start a new one.
+        getLoaderManager().initLoader(0, null, this);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (!ContentResolver.getMasterSyncAutomatically()
+                || !ContentResolver.getSyncAutomatically(mAccount, CalendarContract.AUTHORITY)) {
+            Resources res = getActivity().getResources();
+            mSyncStatus.setText(res.getString(R.string.acct_not_synced));
+            mSyncStatus.setVisibility(View.VISIBLE);
+            mAccountsButton.setText(res.getString(R.string.accounts));
+            mAccountsButton.setVisibility(View.VISIBLE);
+        } else {
+            mSyncStatus.setVisibility(View.GONE);
+            mAccountsButton.setVisibility(View.GONE);
+
+            // Start a background sync to get the list of calendars from the server.
+            Utils.startCalendarMetafeedSync(mAccount);
+            getActivity().getContentResolver().registerContentObserver(
+                    CalendarContract.Calendars.CONTENT_URI, true, mCalendarsObserver);
+        }
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        mService = new AsyncQueryService(activity);
+
+        Bundle bundle = getArguments();
+        if (bundle != null && bundle.containsKey(CalendarContract.Calendars.ACCOUNT_NAME)
+                && bundle.containsKey(CalendarContract.Calendars.ACCOUNT_TYPE)) {
+            mAccount = new Account(bundle.getString(CalendarContract.Calendars.ACCOUNT_NAME),
+                    bundle.getString(CalendarContract.Calendars.ACCOUNT_TYPE));
+        }
+    }
+
+    @Override
+    public void onPause() {
+        final ListAdapter listAdapter = getListAdapter();
+        if (listAdapter != null) {
+            HashMap<Long, SelectCalendarsSyncAdapter.CalendarRow> changes = ((SelectCalendarsSyncAdapter) listAdapter)
+                    .getChanges();
+            if (changes != null && changes.size() > 0) {
+                for (SelectCalendarsSyncAdapter.CalendarRow row : changes.values()) {
+                    if (row.synced == row.originalSynced) {
+                        continue;
+                    }
+                    long id = row.id;
+                    mService.cancelOperation((int) id);
+                    // Use the full long id in case it makes a difference
+                    Uri uri = ContentUris.withAppendedId(CalendarContract.Calendars.CONTENT_URI, row.id);
+                    ContentValues values = new ContentValues();
+                    // Toggle the current setting
+                    int synced = row.synced ? 1 : 0;
+                    values.put(CalendarContract.Calendars.SYNC_EVENTS, synced);
+                    values.put(CalendarContract.Calendars.VISIBLE, synced);
+                    mService.startUpdate((int) id, null, uri, values, null, null, 0);
+                }
+                changes.clear();
+            }
+        }
+        getActivity().getContentResolver().unregisterContentObserver(mCalendarsObserver);
+        super.onPause();
+    }
+
+    @Override
+    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+        mArgs[0] = mAccount.name;
+        mArgs[1] = mAccount.type;
+        return new CursorLoader(
+                getActivity(), CalendarContract.Calendars.CONTENT_URI, PROJECTION, SELECTION, mArgs, SORT_ORDER);
+    }
+
+    @Override
+    public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
+        SelectCalendarsSyncAdapter adapter = (SelectCalendarsSyncAdapter) getListAdapter();
+        if (adapter == null) {
+            adapter = new SelectCalendarsSyncAdapter(getActivity(), data, getFragmentManager());
+            setListAdapter(adapter);
+        } else {
+            adapter.changeCursor(data);
+        }
+        getListView().setOnItemClickListener(adapter);
+    }
+
+    public void onLoaderReset(Loader<Cursor> loader) {
+        setListAdapter(null);
+    }
+
+    // Called when the Accounts button is pressed. Takes the user to the
+    // Accounts and Sync settings page.
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent();
+        intent.setAction("android.settings.SYNC_SETTINGS");
+        getActivity().startActivity(intent);
+    }
+}

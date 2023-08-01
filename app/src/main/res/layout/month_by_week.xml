@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/month"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minical_bg_shadow_holo_light"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/month_name"
+        style="@style/MonthView_MiniMonthLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" />
+
+    <include
+        android:id="@+id/day_names"
+        layout="@layout/mini_month_header" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/month_grid_lines" />
+
+    <com.alarm.technothumb.alarmapplication.calenderr.month.MonthListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false" />
+
+</LinearLayout>

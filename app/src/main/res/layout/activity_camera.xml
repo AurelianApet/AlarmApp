@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_cal">
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/fromCamera"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Add from Camera"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_below="@+id/imageView1"-->
+        <!--android:layout_alignRight="@+id/imageView1"-->
+        <!--android:layout_alignEnd="@+id/imageView1"-->
+        <!--android:background="@drawable/button"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="@color/primary_dark">-->
+
+    <!--</Button>-->
+
+    <ImageView android:id="@+id/imageView1"
+        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/notfound"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:gravity="top"
+        android:hint="Enter Title"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView1"/>
+
+
+</RelativeLayout>

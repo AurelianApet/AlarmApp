@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alarm.technothumb.alarmapplication">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        tools:ignore="ProtectedPermissions" />
+
+    <permission
+        android:name="locationmanager.jgeraldo.com.androidlocationmanager.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="your.package.name.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail" />
+
+    <permission-group android:name="android.permission-group.CALENDAR" />
+
+    <!--
+         Allows an application to read the user's calendar data.
+         <p>Protection level: dangerous
+    -->
+    <permission
+        android:name="android.permission.READ_CALENDAR"
+        android:permissionGroup="android.permission-group.CALENDAR" />
+
+    <!--
+         Allows an application to write the user's calendar data.
+         <p>Protection level: dangerous
+    -->
+    <permission
+        android:name="android.permission.WRITE_CALENDAR"
+        android:permissionGroup="android.permission-group.CALENDAR" />
+
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/cal_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/cal_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".alarm.MainActivity" />
+
+        <service android:name=".alarm.service.LoadAlarmsService" />
+
+        <receiver android:name=".alarm.service.LoadAlarmsReceiver" />
+        <receiver android:name=".alarm.service.AlarmReceiver" />
+
+        <activity android:name=".alarm.AddEditAlarmActivity" />
+        <activity
+            android:name=".alarm.AlarmLandingPageActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+        <activity android:name=".worldtime.TimeZoneEdit" />
+
+        <service android:name="alarm.service.LoadAlarmsService" />
+
+        <receiver android:name="alarm.service.LoadAlarmsReceiver" />
+        <receiver android:name="alarm.service.AlarmReceiver" />
+        <receiver android:name=".medicinee.MyAlarmReceivers" />
+
+        <activity android:name=".calender.CalenderActivity" />
+        <activity android:name=".calender.EditActivity" />
+        <activity android:name=".medicine.addmedicine.AddMedicineActivity" />
+        <activity android:name=".medicine.alarm.ReminderActivity" />
+        <activity android:name=".medicine.report.MonthlyReportActivity" />
+        <activity android:name=".timer.Timer_DismissActivity" />
+        <activity
+            android:name=".medicinee.MedicineActivity"
+            android:theme="@style/Theme.Blue" />
+        <activity
+            android:name=".medicinee.AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName=".medicinee.MedicineActivity"
+            android:theme="@style/Theme.Blue" />
+        <activity
+            android:name=".medicinee.ScheduleActivity"
+            android:label="@string/title_activity_setting"
+            android:parentActivityName=".medicinee.MedicineActivity"
+            android:theme="@style/Theme.Blue" />
+        <activity
+            android:name=".medicinee.PillBoxActivity"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/Theme.Blue" />
+        <activity
+            android:name=".medicinee.AlertActivity"
+            android:label="@string/title_activity_alert"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".medicinee.EditActivity"
+            android:theme="@style/Theme.Blue" />
+        <activity android:name=".notes.EditActivity" />
+        <activity
+            android:name=".note.NotesActivity"
+            android:label="@string/title_activity_notes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".note.TextNoteActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".note.AudioNoteActivity"
+            android:theme="@style/AppTheme1" />
+
+        <service android:name=".note.NotificationService" />
+
+        <receiver android:name=".note.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".anniversaries.anniversaryNotification" />
+
+        <receiver android:name=".anniversaries.anniversaryBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.alarm.technothumb.alarmapplication"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider_paths" />
+        </provider>
+
+        <activity
+            android:name=".note.SettingsActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".note.ManageCategoriesActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".note.ChecklistNoteActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".note.RecycleActivity"
+            android:theme="@style/AppTheme1" />
+
+        <!-- Calender -->
+        <activity
+            android:name=".calenderr.CalenderrActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/CalendarTheme.WithoutActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".calenderr.EventInfoActivity"
+            android:parentActivityName=".calenderr.CalenderrActivity"
+            android:theme="@style/CalendarTheme.WithActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter
+                android:scheme="http"
+                tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/event" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarm.technothumb.alarmapplication.calenderr.CalenderrActivity" />
+        </activity>
+        <activity
+            android:name=".calenderr.event.EditEventActivity"
+            android:theme="@style/Base.CalendarAppThemeWithActionBar" />
+        <activity
+            android:name=".calenderr.GoogleCalendarUriIntentFilter"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_label"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter android:priority="50">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.google.com"
+                    android:pathPrefix="/calendar/event"
+                    android:scheme="http" />
+                <data
+                    android:host="www.google.com"
+                    android:pathPrefix="/calendar/event"
+                    android:scheme="https" />
+                <data
+                    android:host="www.google.com"
+                    android:pathPattern="/calendar/hosted/.*/event"
+                    android:scheme="http" />
+                <data
+                    android:host="www.google.com"
+                    android:pathPattern="/calendar/hosted/.*/event"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".calenderr.selectcalendars.SelectVisibleCalendarsActivity"
+            android:label="@string/select_visible_calendars_title"
+            android:theme="@style/Base.CalendarAppThemeWithActionBar" />
+        <activity
+            android:name=".calenderr.selectcalendars.SelectSyncedCalendarsMultiAccountActivity"
+            android:label="@string/select_synced_calendars_title"
+            android:theme="@style/Base.CalendarAppThemeWithActionBar" />
+        <activity
+            android:name=".calenderr.CalendarSettingsActivity"
+            android:label="@string/preferences_title"
+            android:parentActivityName=".calenderr.CalenderrActivity"
+            android:theme="@style/Base.CalendarAppThemeWithActionBar" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".calenderr.SearchActivity" />
+
+        <activity
+            android:name=".calenderr.SearchActivity"
+            android:exported="true"
+            android:label="@string/search_title"
+            android:launchMode="singleTop"
+            android:theme="@style/CalendarTheme.WithActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".calenderr.alerts.AlertActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name=".calenderr.alerts.QuickResponseActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/quick_response_dialog_title"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name=".calenderr.alerts.SnoozeDelayActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <receiver android:name=".calenderr.alerts.AlertReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.EVENT_REMINDER" />
+                <action android:name="android.intent.action.TIME_SET" />
+
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+                <data android:scheme="content" />
+                <data android:host="com.briswell.mycalendar" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".calenderr.alerts.GlobalDismissManager"
+            android:exported="false" />
+
+        <service android:name=".calenderr.alerts.AlertService" />
+        <service android:name=".calenderr.alerts.DismissAlarmsService" />
+        <service android:name=".calenderr.alerts.SnoozeAlarmsService" />
+        <service android:name=".calenderr.alerts.InitAlarmsService" />
+
+        <!-- Declarations for the widget -->
+        <receiver
+            android:name=".calenderr.widget.CalendarAppWidgetProvider"
+            android:label="@string/gadget_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.briswell.mycalendar.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+        </receiver>
+        <receiver android:name=".calenderr.widget.CalendarAppWidgetService$CalendarFactory">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+                <data android:scheme="content" />
+                <data android:host="com.briswell.mycalendar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.briswell.mycalendar.APPWIDGET_SCHEDULED_UPDATE" />
+
+                <data android:scheme="content" />
+                <data android:host="com.briswell.mycalendar" />
+                <data android:mimeType="vnd.android.data/update" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".calenderr.widget.CalendarAppWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service android:name=".calenderr.AsyncQueryServiceHelper" />
+
+        <activity android:name=".timer.TimerActivity" />
+        <activity android:name=".stopwatcher.StopWatchActivity" />
+        <activity android:name=".worldtime.WorldTimeActivity" />
+        <activity
+            android:name=".travel_record.Map_mainActivity"
+            android:theme="@style/AppTheme1" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBbmPFySouaFEGZcKVc4NSjFbaFr6GX6ZU" />
+
+        <activity
+            android:name=".travel_record.MapActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".travel_record.CameraActivity"
+            android:parentActivityName=".travel_record.Map_mainActivity"
+            android:theme="@style/AppTheme1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarm.technothumb.alarmapplication.travel_record.Map_mainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".travel_record.MapsActivity"
+            android:theme="@style/AppTheme1" />
+
+        <provider
+            android:name=".travel_record.NotesProvider"
+            android:authorities="com.alarm.technothumb.alarmapplication.travel_record.notesprovider"
+            android:exported="false" />
+
+        <activity
+            android:name=".travel_record.TravelRecordActivity"
+            android:theme="@style/AppTheme1"></activity>
+        <activity
+            android:name=".travel_record.AudioNote_RecordActivity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmPagerActivity" />
+
+        <provider
+            android:name=".alarmm.provider.ClockProvider"
+            android:authorities="com.alarm.technothumb.alarmapplication.alarmm"
+            android:exported="true" />
+
+        <activity
+            android:name=".alarmm.DeskClock"
+            android:screenOrientation="portrait"
+            android:theme="@style/DeskClock">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <!-- android:icon="@drawable/action_bar_icon" -->
+            <!-- android:label="@string/app_name" -->
+        </activity>
+
+        <activity-alias
+            android:name=".DockClock"
+            android:enabled="@bool/config_dockAppEnabled"
+            android:launchMode="singleTask"
+            android:targetActivity=".alarmm.DeskClock"
+            android:theme="@style/DeskClock" />
+
+        <!-- android:icon="@mipmap/ic_launcher_alarmclock" -->
+        <!-- android:label="@string/app_name" -->
+
+        <activity
+            android:name=".alarmm.SettingsActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/settings"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alarmm.worldclock.CitiesActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/cities_activity_title"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/CitiesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alarmm.alarms.AlarmActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:showOnLockScreen="true"
+            android:taskAffinity=""
+            android:theme="@style/AlarmAlertFullScreenTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".alarmm.ScreensaverActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/ScreensaverActivityTheme" />
+
+        <receiver
+            android:name=".alarmm.alarms.AlarmStateManager"
+            android:exported="false" />
+
+        <service
+            android:name=".alarmm.alarms.AlarmService"
+            android:exported="false" />
+
+        <activity
+            android:name=".alarmm.HandleApiCalls"
+            android:excludeFromRecents="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".HandleSetAlarm"
+            android:exported="true"
+            android:targetActivity=".alarmm.HandleApiCalls" />
+
+        <receiver android:name=".alarmm.AlarmInitReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Dream (screensaver) implementation -->
+        <service
+            android:name=".alarmm.Screensaver"
+            android:exported="true"
+            android:label="@string/app_label">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/dream_info" />
+        </service>
+
+        <activity
+            android:name=".alarmm.ScreensaverSettingsActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/screensaver_settings"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".anniversaries.Anniversary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".anniversaries.addAnniversary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".travel_record.FullImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <receiver android:name=".alarmm.timer.MyTimerReceiver"></receiver>
+    </application>
+
+</manifest>

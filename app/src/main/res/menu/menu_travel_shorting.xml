@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_sort_Search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_Title"
+        android:orderInCategory="100"
+        android:title="By Title"
+        android:icon="@drawable/ic_sort_by_alpha_white_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_city"
+        android:orderInCategory="100"
+        android:title="By City"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_state"
+        android:orderInCategory="100"
+        android:title="By State"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_Country"
+        android:orderInCategory="100"
+        android:title="By coutry"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

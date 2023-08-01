@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <view
+        class="com.alarm.technothumb.alarmapplication.calenderr.StickyHeaderListView"
+        android:id="@+id/agenda_sticky_header_list"
+        android:layout_height="match_parent"
+        android:layout_weight=".40"
+        android:layout_width="0px">
+        <view
+            class="com.alarm.technothumb.alarmapplication.calenderr.agenda.AgendaListView"
+            android:id="@+id/agenda_events_list"
+            android:fadingEdge="none"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+    </view>
+    <FrameLayout
+        android:id="@+id/agenda_event_info"
+        android:layout_height="match_parent"
+        android:layout_width="0px"
+        android:layout_weight=".60"
+        android:background="#FFFFFFFF"
+        android:layout_marginTop="5dip"/>
+</LinearLayout>

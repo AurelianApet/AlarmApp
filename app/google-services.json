@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "453533030349",
+    "firebase_url": "https://alaram-ae333.firebaseio.com",
+    "project_id": "alaram-ae333",
+    "storage_bucket": "alaram-ae333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453533030349:android:462709a1383e6073",
+        "android_client_info": {
+          "package_name": "com.alarm.technothumb.alarmapplication.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453533030349-j85tarj89t9k5k1mfdds5a8fiicpf7u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8PWHukM94gJw8T4Fs9qVsf_mJh2gNpeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

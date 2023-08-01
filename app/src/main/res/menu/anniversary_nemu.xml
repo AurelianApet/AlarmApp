@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_anniversary"
+        android:title="Anniversary"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Birthday"
+        android:title="Birthday"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_weddingDay"
+        android:title="Wedding Day"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Departure"
+        android:title="Day of Departure"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Holiday"
+        android:title="Public Holiday"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Other"
+        android:title="Others"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Date"
+        android:title="Sort by Date"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_All"
+        android:title="All"
+        app:showAsAction="never" />
+
+    <!--<item
+        android:id="@+id/action_acending"
+        android:title="acending"
+        android:icon="@drawable/ic_action_ascending"
+        app:showAsAction="always" />-->
+
+</menu>

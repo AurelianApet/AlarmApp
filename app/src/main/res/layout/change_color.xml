@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:background="#8fe2e2e2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/red"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#e54345"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/orange"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#ffa200"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/yellow"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#ffe000"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/green"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#6fc230"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/blue"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#0070cf"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/violet"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#7b35bd"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pink"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#fa03fd"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/gray"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#888888"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/white"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#fff"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

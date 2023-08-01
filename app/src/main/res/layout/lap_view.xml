@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="4dip"
+    android:layout_marginBottom="4dip"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:paddingTop="@dimen/body_font_padding"
+    android:paddingBottom="@dimen/body_font_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/sw_item_space"
+        android:layout_marginEnd="@dimen/sw_item_space"
+        android:gravity="start"
+        style="@style/body"
+        android:textAllCaps="false"
+        android:id="@+id/lap_number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/sw_item_space"
+        android:layout_marginEnd="@dimen/sw_item_space"
+        android:textColor="@color/white"
+        android:gravity="end"
+        style="@style/body"
+        android:textAllCaps="false"
+        android:id="@+id/lap_time" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="end"
+        style="@style/body"
+        android:textAllCaps="false"
+        android:id="@+id/lap_total" />
+</LinearLayout>

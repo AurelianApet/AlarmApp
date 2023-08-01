@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/city_name"
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/clock_white"/>
+
+    <TextView
+        android:id="@+id/city_day"
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/style_label_space"
+        android:layout_marginStart="@dimen/style_label_space"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:textColor="@color/clock_gray"/>
+
+</merge>

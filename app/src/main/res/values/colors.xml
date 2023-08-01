@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="primary">#c59cc4</color> <!--C59CC6  B06FAF-->
+    <color name="primary_dark">#8D3089</color>
+    <color name="primary_light">#c59cc4</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#BDBDBD</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="blue50">#E3F2FD</color>
+    <color name="cyan50">#E0F7FA</color>
+    <color name="green50">#E8F5E9</color>
+    <color name="yellow50">#faf5b6</color>
+    <color name="red50">#FFEBEE</color>
+    <color name="blue500">#2196F3</color>
+    <color name="blue700">#1976D2</color>
+    <color name="greenA700">#00C853</color>
+    <color name="colorDivider">#1F000000</color>
+
+    <color name="color_light_grey">#4d4d4d</color>
+
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+
+    <!--<color name="blue50">#E1F5Fe</color>-->
+    <color name="blue100">#B3E5FC</color>
+    <color name="blue200">#81D4FA</color>
+    <color name="blue300">#4FC3F7</color>
+    <color name="blue400">#29B6F6</color>
+    <!--<color name="blue500">#03A9F4</color>-->
+    <color name="blue600">#039BE5</color>
+    <!--<color name="blue700">#0288D1</color>-->
+    <color name="blue800">#0277BD</color>
+    <color name="blue900">#01579B</color>
+
+    <string-array name="colours" translatable="false">
+        <item>#44A1EB</item> <!-- blue -->
+        <item>#77DDBB</item> <!-- teal -->
+        <item>#BBE535</item> <!-- green -->
+        <item>#F56545</item> <!-- red -->
+        <item>#FFBB22</item> <!-- orange -->
+        <item>#EEEE22</item> <!-- yellow -->
+        <item>#FF5997</item> <!-- pink -->
+        <item>#A767FF</item> <!-- purple -->
+        <item>#44A1EB</item> <!-- white -->
+    </string-array>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_95">#F2000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_75">#B000000F</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_45">#73000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_05">#0E000000</color>
+
+    <!--<color name="transparent">#00FFFFFF</color>-->
+
+    <color name="colorPrimary">#024265</color>
+    <color name="colorPrimaryDark">#024265</color>
+    <color name="colorAccent">#0274B2</color>
+    <color name="transparent">#00000000</color>
+    <color name="middlegrey">#A8A8A8</color>
+    <!--<color name="white">#ffffff</color>-->
+    <color name="yellow">#f6d126</color>
+    <!--<color name="black">#000000</color>-->
+    <color name="middleblue">#8aa5ce</color>
+
+    <!-- Other colors-->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+
+    <color name="red">#CC3300</color>
+
+    <!--Very good list: http://stackoverflow.com/a/32674486 -->
+    <array name="mdcolor_500">
+        <item name="red_500" type="color">#e51c23</item>
+        <item name="pink_500" type="color">#e91e63</item>
+        <item name="purple_500" type="color">#9c27b0</item>
+        <item name="deep_purple_500" type="color">#673ab7</item>
+        <item name="indigo_500" type="color">#3f51b5</item>
+        <item name="blue_500" type="color">#5677fc</item>
+        <item name="light_blue_500" type="color">#03a9f4</item>
+        <item name="cyan_500" type="color">#00bcd4</item>
+        <item name="teal_500" type="color">#009688</item>
+        <item name="green_500" type="color">#259b24</item>
+        <item name="light_green_500" type="color">#8bc34a</item>
+        <item name="lime_500" type="color">#cddc39</item>
+        <item name="yellow_500" type="color">#ffeb3b</item>
+        <item name="orange_500" type="color">#ff9800</item>
+        <item name="deep_orange_500" type="color">#ff5722</item>
+        <item name="brown_500" type="color">#795548</item>
+        <item name="grey_500" type="color">#9e9e9e</item>
+        <item name="blue_grey_500" type="color">#607d8b</item>
+        <item name="white1" type="color">@color/white</item>
+    </array>
+
+
+    <!--Calender-->
+
+    <color name="titleTextColor">#80000000</color>
+
+    <color name="pressed">#330066ff</color>
+
+    <color name="selection">@color/primary</color>
+
+    <color name="today_highlight_color">#0033b5e5</color>
+
+    <!-- The app wide background color -->
+    <color name="background_color">#e1e1e1</color>
+    <color name="event_background">#ffc3d9ff</color>
+    <color name="panel_text_foreground">#cac9c9</color>
+    <color name="calendar_event_text_color">#c6c5c5</color>
+
+    <color name="calendar_owner_text_color">#777777</color>
+    <color name="calendar_date_range_color">#80000000</color>
+
+
+    <color name="week_today">@color/primary</color>
+    <color name="week_saturday">#80333333</color>
+    <color name="week_sunday">#80333333</color>
+    <color name="calendar_future_bg_color">#fdf1f1</color>
+    <color name="calendar_hour_label">#ff666666</color>
+    <color name="calendar_hour_background">#ffEEEEEE</color>
+
+    <color name="calendar_date_banner_background">#FFEEEEEE</color>
+
+    <color name="calendar_date_banner_text_color">#ff666666</color>
+
+    <color name="calendar_grid_area_selected">@color/primary</color>
+
+
+    <color name="calendar_grid_line_inner_horizontal_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_inner_vertical_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_highlight_color">#ff707070</color>
+
+    <color name="mini_month_bg_color">#FFFFFFFF</color>
+    <color name="mini_month_today_outline_color">#FF000000</color>
+
+    <color name="month_day_number">#FF555555</color>
+    <color name="month_mini_day_number">#FF000000</color>
+    <color name="month_day_number_other">#FF999999</color>
+    <color name="month_week_num_color">#FF999999</color>
+    <color name="month_day_names_color">#FF999999</color>
+    <color name="month_today_number">#FF555555</color>
+    <color name="month_event_color">#FF333333</color>
+    <color name="month_event_extra_color">#FF666666</color>
+    <color name="month_event_other_color">#FF666666</color>
+    <color name="month_event_extra_other_color">#4C999999</color>
+    <color name="month_saturday">#80333333</color>
+    <color name="month_sunday">#80333333</color>
+    <color name="month_grid_lines">#ffdedede</color>
+    <color name="month_other_month_day_number">#ff939497</color>
+
+    <!-- Background Color of the selected week for the mini calendar on the tablet size -->
+    <color name="month_selected_week_bgcolor">#FFDDDDDD</color>
+    <color name="month_today_bgcolor">#25a2ff00</color>
+    <color name="month_focus_month_bgcolor">#FFFFFFFF</color>
+    <color name="month_bgcolor">#FFF2F2F2</color>
+    <color name="month_other_bgcolor">#FFEEEEEE</color>
+
+    <color name="month_dna_conflict_time_color">#FF333333</color>
+
+    <color name="event_center">#ff6bd697</color>
+    <color name="edit_event_separator">#FFDDDDDD</color>
+
+    <color name="calendar_visible">#ff000000</color>
+    <color name="calendar_hidden">#ff808080</color>
+    <color name="calendar_secondary_visible">#ff323232</color>
+    <color name="calendar_secondary_hidden">#ff808080</color>
+
+    <!-- Text color of the date in the Calendar widget -->
+
+    <color name="agenda_item_not_selected">#00000000</color>
+    <!-- Text color of declined events in agenda view -->
+    <color name="agenda_item_declined_color">#66333333</color>
+    <!-- Text color of non-declined events in agenda view -->
+    <color name="agenda_item_standard_color">#FF333333</color>
+    <!-- Background Color of present/future events in agenda view  -->
+    <color name="agenda_day_bar_background_color">#FFFFFFFF</color>
+    <!-- Background Color of past events in agenda view  -->
+    <color name="agenda_past_days_bar_background_color">#FFDDDDDD</color>
+    <!-- Color of the separator between the past and the present/future in agenda view  -->
+    <color name="agenda_past_present_separator_color">#b2ff0000</color>
+    <!-- General background color in agenda view  -->
+    <color name="agenda_general_background_color">#FFEEEEEE</color>
+    <!-- Agenda day item text color  -->
+    <color name="agenda_day_item_text_color">#FF666666</color>
+    <!-- Color of the event location's text in an agenda item  -->
+    <color name="agenda_item_where_text_color">#FF666666</color>
+    <!-- Color of the event location's text in an agenda item  -->
+    <color name="agenda_item_where_declined_text_color">#66666666</color>
+    <!-- Color of text in the calendar view selection menu -->
+    <color name="calendar_view_switch_menu_text_color">#FF666666</color>
+    <!-- Light color of text in the calendar view selection menu -->
+    <color name="calendar_view_switch_menu_text_color_light">#FF888888</color>
+    <!-- Color of the separator between items in the agenda list -->
+    <color name="agenda_list_separator_color">#FFBBBBBB</color>
+    <!-- Text color of a selected items in the agenda list - trumps all other text colors -->
+    <color name="agenda_selected_background_color">@color/primary</color>
+    <!-- Background color of a selected items in the agenda list -->
+    <color name="agenda_selected_text_color">#FFFFFFFF</color>
+    <!-- Text color of the "new event" hint in day and week views -->
+    <color name="new_event_hint_text_color">#FFFFFFFF</color>
+
+    <!-- Text color of a clicked event in the day/week view -->
+    <color name="day_event_clicked_background_color">@color/primary</color>
+    <!-- background color for for clicked days in month view-->
+    <color name="day_clicked_background_color">@color/primary</color>
+    <!-- background color for the past -->
+    <color name="day_past_background_color">#22DDDDDD</color>
+
+    <!-- Event info colors -->
+    <color name="event_info_headline_color">#FFFFFFFF</color>
+    <color name="event_info_headline_transparent_color">#B3FFFFFF</color>
+    <color name="event_info_headline_link_color">#FFFFFFFF</color>
+    <color name="event_info_organizer_color">#FF666666</color>
+    <color name="event_info_description_color">#FF666666</color>
+    <color name="event_info_body_color">#FF666666</color>
+    <color name="event_info_label_color">#FF999999</color>
+    <color name="event_info_label_background_color">#FFDDDDDD</color>
+
+    <!-- Create event colors -->
+    <color name="create_event_date_color">#FF000000</color>
+    <color name="create_event_more_details_color">#FF888888</color>
+    <color name="create_event_divider_color">#FFDDDDDD</color>
+
+    <color name="text_shadow_color">#4D000000</color>
+
+    <color name="alert_event_title">#FFFFFFFF</color>
+    <color name="alert_event_other">#FF999999</color>
+    <color name="alert_past_event">#8F999999</color>
+
+    <color name="appwidget_row_in_progress">#6633b5e5</color>
+
+    <color name="appwidget_date">#ff676767</color>
+    <color name="appwidget_week">@android:color/white</color>
+    <color name="appwidget_month">#ffEEEEEE</color>
+
+    <!-- Text color of declined events in widget view -->
+    <color name="appwidget_item_declined_color">#66333333</color>
+    <!-- Text color of non-declined events in widget view -->
+    <color name="appwidget_item_standard_color">#ff333333</color>
+    <!-- Text color for all day events in widget view -->
+    <color name="appwidget_item_allday_color">#ffffffff</color>
+
+    <color name="appwidget_title">#ffffffff</color>
+    <color name="appwidget_when">#ffffffff</color>
+    <color name="appwidget_where">#ffffffff</color>
+    <color name="appwidget_no_events">#ffffffff</color>
+
+    <color name="recurrence_picker_background">#fff2f2f2</color>
+    <color name="recurrence_bubble_text_normal">#ff737373</color>
+
+    <!--Google Map-->
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+
+    <color name="icons_n_texts">#FFFFFF</color>
+
+
+    <!-- Edit text colors -->
+    <color name="hint_text">#9E9E9E</color>
+    <color name="error_text">#F44336</color>
+
+    <color name="list_item_text">#333</color>
+
+    <!--alarm-->
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="time_text_color">#E6FFFFFF</color>
+    <color name="ampm_text_color">#99FFFFFF</color>
+    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_dim_color">#FF001634</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="dialog_gray">#28ffffff</color>
+
+    <!--<color name="black">#ff000000</color>-->
+    <!-- If this color is changed or no longer used as the primary background, ensure that blackish_trans is changed as well. -->
+    <color name="blackish">#1c1e20</color>
+    <color name="blackish_selected">#0cffffff</color>
+    <!-- Transparent background for use in the footer. 80% opacity. The color must remain the same as "blackish" above. -->
+    <color name="blackish_trans">#cc1c1e20</color>
+    <!--<color name="white">#ffffffff</color>-->
+    <!--<color name="red">#ffee0000</color>-->
+    <color name="grey">#ffaaaaaa</color>
+    <!--<color name="transparent">#00000000</color>-->
+    <color name="transparent_white">#66ffffff</color>
+    <color name="alarm_whiteish">#0cffffff</color>
+
+    <color name="main_button_normal">#606060</color>
+    <color name="main_button_selected">#909090</color>
+    <color name="main_button_red_normal">#ff4444</color> <!-- same as clock_red -->
+    <color name="main_button_red_selected">#c0ff4444</color>
+
+    <color name="clock_red">#ff4444</color>
+    <color name="clock_white">#ffffff</color>
+    <color name="clock_gray">#80ffffff</color>
+    <color name="clock_blue">#8D3089</color>
+    <color name="notification_bg">#ff15444F</color>
+    <color name="alarm_selected_color">#c59cc4</color>
+
+    <drawable name="notification_template_icon_bg">#c59cc4</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+
+    <color name="alarm_timeline_color">#4D4D4D</color>
+
+    <!-- Primary dark blue_grey_800 -->
+    <!--<color name="primary_dark">#37474f</color>-->
+    <color name="primary_dark_trans">#2037474f</color>
+    <!-- Primary blue_grey_700 -->
+    <!--<color name="primary">#455a64</color>-->
+    <!-- Primary highlight blue_grey_200 -->
+    <!--<color name="primary_light">#b0bec5</color>-->
+    <!-- Accent dark deep_orange_a700 -->
+    <color name="accent_dark">#dd2c00</color>
+    <!-- Accent deep_orange_a400 -->
+    <!--<color name="accent">#ff3d00</color>-->
+    <!-- Accent highlight deep_orange_a100 -->
+    <color name="accent_light">#ff9e80</color>
+
+    <!-- Primary blue_grey_400 -->
+    <color name="primary_button">#78909c</color>
+    <!-- Primary blue_grey_500 -->
+    <color name="primary_button_dark">#607d8b</color>
+
+    <!-- Primary blue_grey_900 -->
+    <color name="settings_background">#263238</color>
+
+
+    <!-- **************** -->
+    <!-- Material Colours -->
+    <!-- **************** -->
+    <!-- RED -->
+    <color name="red_50">#ffebee</color>
+    <color name="red_100">#ffcdd2</color>
+    <color name="red_200">#ef9a9a</color>
+    <color name="red_300">#e57373</color>
+    <color name="red_400">#ef5350</color>
+    <!--<color name="red_500">#f44336</color>-->
+    <color name="red_600">#e53935</color>
+    <color name="red_700">#d32f2f</color>
+    <color name="red_800">#c41411</color>
+    <color name="red_900">#b71c1c</color>
+    <color name="red_a100">#ff8a80</color>
+    <color name="red_a200">#ff5252</color>
+    <color name="red_a400">#ff1744</color>
+    <color name="red_a700">#d50000</color>
+
+    <!-- PINK -->
+    <color name="pink_50">#fce4ec</color>
+    <color name="pink_100">#f8bbd0</color>
+    <color name="pink_200">#f48fb1</color>
+    <color name="pink_300">#f06292</color>
+    <color name="pink_400">#ec407a</color>
+    <!--<color name="pink_500">#e91e63</color>-->
+    <color name="pink_600">#d81b60</color>
+    <color name="pink_700">#c2185b</color>
+    <color name="pink_800">#ad1457</color>
+    <color name="pink_900">#880e4f</color>
+    <color name="pink_a100">#ff80ab</color>
+    <color name="pink_a200">#ff4081</color>
+    <color name="pink_a400">#f50057</color>
+    <color name="pink_a700">#c51162</color>
+
+    <!-- PURPLE -->
+    <color name="purple_50">#f3e5f5</color>
+    <color name="purple_100">#e1bee7</color>
+    <color name="purple_200">#cd93d8</color>
+    <color name="purple_300">#ba68c8</color>
+    <color name="purple_400">#ab47bc</color>
+    <!--<color name="purple_500">#9c27b0</color>-->
+    <color name="purple_600">#8e24aa</color>
+    <color name="purple_700">#7b1fa2</color>
+    <color name="purple_800">#6a1b9a</color>
+    <color name="purple_900">#4a148c</color>
+    <color name="purple_a100">#ea80fc</color>
+    <color name="purple_a200">#e040fb</color>
+    <color name="purple_a400">#d500f9</color>
+    <color name="purple_a700">#aa00ff</color>
+
+    <!-- DEEP PURPLE -->
+    <color name="deep_purple_50">#ede7f6</color>
+    <color name="deep_purple_100">#d1c4e9</color>
+    <color name="deep_purple_200">#b39ddb</color>
+    <color name="deep_purple_300">#9575cd</color>
+    <color name="deep_purple_400">#7e57c2</color>
+    <!--<color name="deep_purple_500">#673ab7</color>-->
+    <color name="deep_purple_600">#5e35b1</color>
+    <color name="deep_purple_700">#512da8</color>
+    <color name="deep_purple_800">#4527a0</color>
+    <color name="deep_purple_900">#311b92</color>
+    <color name="deep_purple_a100">#b388ff</color>
+    <color name="deep_purple_a200">#7c4dff</color>
+    <color name="deep_purple_a400">#651fff</color>
+    <color name="deep_purple_a700">#6200ea</color>
+
+    <!-- INDIGO -->
+    <color name="indigo_50">#e8eaf6</color>
+    <color name="indigo_100">#c5cae9</color>
+    <color name="indigo_200">#9fa8da</color>
+    <color name="indigo_300">#7986cb</color>
+    <color name="indigo_400">#5c6bc0</color>
+    <!--<color name="indigo_500">#3f51b5</color>-->
+    <color name="indigo_600">#3949ab</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1a237e</color>
+    <color name="indigo_a100">#8c9eff</color>
+    <color name="indigo_a200">#536dfe</color>
+    <color name="indigo_a400">#3d5afe</color>
+    <color name="indigo_a700">#304ffe</color>
+
+    <!-- BLUE -->
+    <color name="blue_50">#e3f2fd</color>
+    <color name="blue_100">#bbdefb</color>
+    <color name="blue_200">#90caf9</color>
+    <color name="blue_300">#64b5f6</color>
+    <color name="blue_400">#42a5f5</color>
+    <!--<color name="blue_500">#2196f3</color>-->
+    <color name="blue_600">#1e88e5</color>
+    <color name="blue_700">#1976d2</color>
+    <color name="blue_800">#1565c0</color>
+    <color name="blue_900">#0d47a1</color>
+    <color name="blue_a100">#82b1ff</color>
+    <color name="blue_a200">#448aff</color>
+    <color name="blue_a400">#2979ff</color>
+    <color name="blue_a700">#2962ff</color>
+
+    <!-- LIGHT BLUE -->
+    <color name="light_blue_50">#e1f5fe</color>
+    <color name="light_blue_100">#b3e5fc</color>
+    <color name="light_blue_200">#81d4fa</color>
+    <color name="light_blue_300">#4fc3f7</color>
+    <color name="light_blue_400">#29b6f6</color>
+    <!--<color name="light_blue_500">#03a9f4</color>-->
+    <color name="light_blue_600">#039be5</color>
+    <color name="light_blue_700">#0288d1</color>
+    <color name="light_blue_800">#0277bd</color>
+    <color name="light_blue_900">#01579b</color>
+    <color name="light_blue_a100">#80d8ff</color>
+    <color name="light_blue_a200">#40c4ff</color>
+    <color name="light_blue_a400">#00b0ff</color>
+    <color name="light_blue_a700">#0091ea</color>
+
+    <!-- CYAN -->
+    <color name="cyan_50">#e0f7fa</color>
+    <color name="cyan_100">#b2ebf2</color>
+    <color name="cyan_200">#80deea</color>
+    <color name="cyan_300">#4dd0e1</color>
+    <color name="cyan_400">#26c6da</color>
+    <!--<color name="cyan_500">#00bcd4</color>-->
+    <color name="cyan_600">#00acc1</color>
+    <color name="cyan_700">#0097a7</color>
+    <color name="cyan_800">#00838f</color>
+    <color name="cyan_900">#006064</color>
+    <color name="cyan_a100">#84ffff</color>
+    <color name="cyan_a200">#18ffff</color>
+    <color name="cyan_a400">#00e5ff</color>
+    <color name="cyan_a700">#00b8d4</color>
+
+    <!-- TEAL -->
+    <color name="teal_50">#e0f2f1</color>
+    <color name="teal_100">#b2dfdb</color>
+    <color name="teal_200">#80cbc4</color>
+    <color name="teal_300">#4db6ac</color>
+    <color name="teal_400">#26a69a</color>
+    <!--<color name="teal_500">#009688</color>-->
+    <color name="teal_600">#00897b</color>
+    <color name="teal_700">#00796b</color>
+    <color name="teal_800">#00695c</color>
+    <color name="teal_900">#004d40</color>
+    <color name="teal_a100">#a7ffeb</color>
+    <color name="teal_a200">#64ffda</color>
+    <color name="teal_a400">#1de9b6</color>
+    <color name="teal_a700">#00bfa5</color>
+
+    <!-- GREEN -->
+    <color name="green_50">#d0f8ce</color>
+    <color name="green_100">#a3e9a4</color>
+    <color name="green_200">#72d572</color>
+    <color name="green_300">#42bd41</color>
+    <color name="green_400">#2baf2b</color>
+    <!--<color name="green_500">#259b24</color>-->
+    <color name="green_600">#0a8f08</color>
+    <color name="green_700">#0a7e07</color>
+    <color name="green_800">#056f00</color>
+    <color name="green_900">#0d5302</color>
+    <color name="green_a100">#a2f78d</color>
+    <color name="green_a200">#5af158</color>
+    <color name="green_a400">#14e715</color>
+    <color name="green_a700">#12c700</color>
+
+    <!-- LIGHT GREEN -->
+    <color name="light_green_50">#f1f8e9</color>
+    <color name="light_green_100">#dcedc8</color>
+    <color name="light_green_200">#c5e1a5</color>
+    <color name="light_green_300">#aed581</color>
+    <color name="light_green_400">#9ccc65</color>
+    <!--<color name="light_green_500">#8bc34a</color>-->
+    <color name="light_green_600">#7cb342</color>
+    <color name="light_green_700">#689f38</color>
+    <color name="light_green_800">#558b2f</color>
+    <color name="light_green_900">#33691e</color>
+    <color name="light_green_a100">#ccff90</color>
+    <color name="light_green_a200">#b2ff59</color>
+    <color name="light_green_a400">#76ff03</color>
+    <color name="light_green_a700">#64dd17</color>
+
+    <!-- LIME -->
+    <color name="lime_50">#f9fbe7</color>
+    <color name="lime_100">#f0f4c3</color>
+    <color name="lime_200">#e6ee9c</color>
+    <color name="lime_300">#dce775</color>
+    <color name="lime_400">#d4e157</color>
+    <!--<color name="lime_500">#cddc39</color>-->
+    <color name="lime_600">#c0ca33</color>
+    <color name="lime_700">#afb42b</color>
+    <color name="lime_800">#9e9d24</color>
+    <color name="lime_900">#827717</color>
+    <color name="lime_a100">#f4ff81</color>
+    <color name="lime_a200">#eeff41</color>
+    <color name="lime_a400">#c6ff00</color>
+    <color name="lime_a700">#aeea00</color>
+
+    <!-- YELLOW -->
+    <color name="yellow_50">#fffde7</color>
+    <color name="yellow_100">#fff9c4</color>
+    <color name="yellow_200">#fff59d</color>
+    <color name="yellow_300">#fff176</color>
+    <color name="yellow_400">#ffee58</color>
+    <!--<color name="yellow_500">#ffeb3b</color>-->
+    <color name="yellow_600">#fdd835</color>
+    <color name="yellow_700">#fbc02d</color>
+    <color name="yellow_800">#f9a825</color>
+    <color name="yellow_900">#f57f17</color>
+    <color name="yellow_a100">#ffff8d</color>
+    <color name="yellow_a200">#ffff00</color>
+    <color name="yellow_a400">#ffea00</color>
+    <color name="yellow_a700">#ffd600</color>
+
+    <!-- AMBER -->
+    <color name="amber_50">#fff8e1</color>
+    <color name="amber_100">#ffecb3</color>
+    <color name="amber_200">#ffe082</color>
+    <color name="amber_300">#ffd54f</color>
+    <color name="amber_400">#ffca28</color>
+    <color name="amber_500">#ffc107</color>
+    <color name="amber_600">#ffb300</color>
+    <color name="amber_700">#ffa000</color>
+    <color name="amber_800">#ff8f00</color>
+    <color name="amber_900">#ff6f00</color>
+    <color name="amber_a100">#ffe57f</color>
+    <color name="amber_a200">#ffd740</color>
+    <color name="amber_a400">#ffc400</color>
+    <color name="amber_a700">#ffab00</color>
+
+    <!-- ORANGE -->
+    <color name="orange_50">#fff3e0</color>
+    <color name="orange_100">#ffe0b2</color>
+    <color name="orange_200">#ffcc80</color>
+    <color name="orange_300">#ffb74d</color>
+    <color name="orange_400">#ffa726</color>
+    <!--<color name="orange_500">#ff9800</color>-->
+    <color name="orange_600">#fb8c00</color>
+    <color name="orange_700">#f57c00</color>
+    <color name="orange_800">#ef6c00</color>
+    <color name="orange_900">#e65100</color>
+    <color name="orange_a100">#ffd180</color>
+    <color name="orange_a200">#ffab40</color>
+    <color name="orange_a400">#ff9100</color>
+    <color name="orange_a700">#ff6d00</color>
+
+    <!-- DEEP ORANGE -->
+    <color name="deep_orange_50">#fbe9e7</color>
+    <color name="deep_orange_100">#ffccbc</color>
+    <color name="deep_orange_200">#ffab91</color>
+    <color name="deep_orange_300">#ff8a65</color>
+    <color name="deep_orange_400">#ff7043</color>
+    <!--<color name="deep_orange_500">#ff5722</color>-->
+    <color name="deep_orange_600">#f4511e</color>
+    <color name="deep_orange_700">#e64a19</color>
+    <color name="deep_orange_800">#d84315</color>
+    <color name="deep_orange_900">#bf360c</color>
+    <color name="deep_orange_a100">#ff9e80</color>
+    <color name="deep_orange_a200">#ff6e40</color>
+    <color name="deep_orange_a400">#ff3d00</color>
+    <color name="deep_orange_a700">#dd2c00</color>
+
+    <!-- BROWN -->
+    <color name="brown_50">#efebe9</color>
+    <color name="brown_100">#d7ccc8</color>
+    <color name="brown_200">#bcaaa4</color>
+    <color name="brown_300">#a1887f</color>
+    <color name="brown_400">#8d6e63</color>
+    <!--<color name="brown_500">#795548</color>-->
+    <color name="brown_600">#6d4c41</color>
+    <color name="brown_700">#5d4037</color>
+    <color name="brown_800">#4e342e</color>
+    <color name="brown_900">#3e2723</color>
+
+    <!-- GREY -->
+    <color name="grey_50">#fafafa</color>
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <!--<color name="grey_500">#9e9e9e</color>-->
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <!-- BLUE GREY -->
+    <color name="blue_grey_50">#eceff1</color>
+    <color name="blue_grey_100">#cfd8dc</color>
+    <color name="blue_grey_200">#b0bec5</color>
+    <color name="blue_grey_300">#90a4ae</color>
+    <color name="blue_grey_400">#78909c</color>
+    <!--<color name="blue_grey_500">#607d8b</color>-->
+    <color name="blue_grey_600">#546e7a</color>
+    <color name="blue_grey_700">#455a64</color>
+    <color name="blue_grey_800">#37474f</color>
+    <color name="blue_grey_900">#263238</color>
+
+
+    <color name="gray">#FF444444</color>
+    <color name="blur">#DD63594A</color>
+
+    <color name="iconGreen">#245051</color>
+
+    <color name="scrollRed">#aae54345</color>
+    <color name="scrollOrange">#aaffa200</color>
+    <color name="scrollYellow">#aaffe000</color>
+    <color name="scrollGreen">#aa6fc230</color>
+    <color name="scrollBlue">#aa0070cf</color>
+    <color name="scrollVilote">#a93537bd</color>
+    <color name="scrollPint">#aafa03fd</color>
+    <color name="scrollGray">#aa888888</color>
+    <color name="scrollWhite">#fff</color>
+
+    <color name="buttonRed">#e54345</color>
+    <color name="buttonOrange">#ffa200</color>
+    <color name="buttonYellow">#ffe000</color>
+    <color name="buttonGreen">#6fc230</color>
+    <color name="buttonBlue">#0070cf</color>
+    <color name="buttonVilote">#7b35bd</color>
+    <color name="buttonPint">#fa03fd</color>
+    <color name="buttonGray">#888888</color>
+    <color name="buttonWhite">#fff</color>
+
+
+</resources>
+

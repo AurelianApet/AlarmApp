@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_dark"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="#fff"
+        android:text="FILTERS"
+        android:textSize="20dp"
+       />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/chk_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Search by Title"/>
+
+
+            <CheckBox
+                android:id="@+id/chk_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search by City"/>
+
+            <CheckBox
+                android:id="@+id/chk_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search by State"/>
+
+            <CheckBox
+                android:id="@+id/chk_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search by Country"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name Pattern  : "
+
+                android:textStyle="bold"/>
+
+           <!-- <SearchView
+                android:id="@+id/simpleSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:queryHint="Search"
+                android:iconifiedByDefault="false"
+              >
+                <requestFocus />
+            </SearchView>-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchCity"
+                android:drawableTint="@color/primary_dark"
+                android:hint="Search here"
+                android:drawableLeft="@drawable/ic_menu_search"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"
+
+
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:text="Cancel"
+            android:layout_marginRight="10dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"
+
+
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:text="Ok"/>
+    </LinearLayout>
+
+</LinearLayout>
